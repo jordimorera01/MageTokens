@@ -2362,6 +2362,14 @@
     }
   ],
   "$metadata": {
-    "tokenSetOrder": ["colors", "fonts", "dimensions", "light", "dark", "desktop", "button"]
+    "tokenSetOrder": [
+      "colors",
+      "fonts",
+      "dimensions",
+      "light",
+      "dark",
+      "desktop",
+      "button"
+    ]
   }
 }
