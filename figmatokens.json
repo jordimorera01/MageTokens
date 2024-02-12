@@ -129,7 +129,7 @@
           }
         },
         "500": {
-          "value": "#51c9e1",
+          "value": "#374b87",
           "type": "color"
         },
         "600": {
@@ -2362,14 +2362,6 @@
     }
   ],
   "$metadata": {
-    "tokenSetOrder": [
-      "colors",
-      "fonts",
-      "dimensions",
-      "light",
-      "dark",
-      "desktop",
-      "button"
-    ]
+    "tokenSetOrder": ["colors", "fonts", "dimensions", "light", "dark", "desktop", "button"]
   }
 }
