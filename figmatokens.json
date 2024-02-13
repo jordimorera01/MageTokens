@@ -1628,18 +1628,16 @@
             "description": ""
           }
         },
-        "Brand": {
-          "Primary": {
-            "hovered": {
-              "value": "{colors.blue.500}",
-              "type": "color",
-              "description": ""
-            },
-            "selected": {
-              "value": "{colors.blue.500}",
-              "type": "color",
-              "description": ""
-            }
+        "Primary": {
+          "hovered": {
+            "value": "{colors.blue.500}",
+            "type": "color",
+            "description": ""
+          },
+          "selected": {
+            "value": "{colors.blue.500}",
+            "type": "color",
+            "description": ""
           }
         }
       },
@@ -1705,13 +1703,11 @@
             "description": ""
           }
         },
-        "Brand": {
-          "Primary": {
-            "Hovered": {
-              "value": "{colors.blue.500}",
-              "type": "color",
-              "description": ""
-            }
+        "Primary": {
+          "Hovered": {
+            "value": "{colors.blue.500}",
+            "type": "color",
+            "description": ""
           }
         }
       },
@@ -1744,13 +1740,11 @@
             "description": ""
           }
         },
-        "Brand": {
-          "Primary": {
-            "Hovered": {
-              "value": "{colors.blue.500}",
-              "type": "color",
-              "description": ""
-            }
+        "Primary": {
+          "Hovered": {
+            "value": "{colors.blue.500}",
+            "type": "color",
+            "description": ""
           }
         }
       }
