@@ -2132,7 +2132,8 @@
       "id": "62ea67a20b081a4283fcdb50a215bbaf93d5156d",
       "name": "light",
       "selectedTokenSets": {
-        "colors": "source"
+        "colors": "source",
+        "light": "enabled"
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {},
