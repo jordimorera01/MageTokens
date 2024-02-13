@@ -1302,13 +1302,11 @@
             "description": ""
           }
         },
-        "Brand": {
-          "Primary": {
-            "Hovered": {
-              "value": "{colors.blue.500}",
-              "type": "color",
-              "description": ""
-            }
+        "Primary": {
+          "Hovered": {
+            "value": "{colors.blue.500}",
+            "type": "color",
+            "description": ""
           }
         }
       }
@@ -2169,7 +2167,6 @@
         "Neutral.Stroke.2.enabled": "4d36790dff598ea20c8cf042c80783f23b2456a6",
         "Neutral.Stroke.3.enabled": "074663c30ea0d6abbe0e9f6a09dafe017528c954",
         "Neutral.Stroke.4.enabled": "9d454a383c9129aac0442b355a3554b127be1e67",
-        "Neutral.Stroke.Brand.Primary.Hovered": "206ddc509ec4c829b9b5f80c2329651e1d0a8792",
         "Status.Danger.Foreground.1.enabled": "a9d05022961539cbf4cc92bff491590736af608d",
         "Status.Danger.Background.1.enabled": "3bc64002b89acb6c1c5fdd2bbc83f82e24b70fed",
         "Status.Danger.Background.1.hovered": "a8067037dbd411b4815dec738b123bc81d9317e8",
@@ -2190,7 +2187,8 @@
         "Status.Success.Stroke.2.enabled": "9ee8e3a61d5230cf7d29def942bfb9dd7cec75a7",
         "Neutral.Foreground.Primary.hovered": "b71a09bdc4eeb5045691e05a809e86776243c14b",
         "Neutral.Foreground.Primary.selected": "27e8bf8a2f1f76b7c1a058c03352caa327ab03c5",
-        "Neutral.Background.Primary.Hovered": "6e8e57e3b4bec6ebd312c3a537268485ae9af10f"
+        "Neutral.Background.Primary.Hovered": "6e8e57e3b4bec6ebd312c3a537268485ae9af10f",
+        "Neutral.Stroke.Primary.Hovered": "206ddc509ec4c829b9b5f80c2329651e1d0a8792"
       },
       "$figmaCollectionId": "VariableCollectionId:19:216145",
       "$figmaModeId": "19:0",
@@ -2245,7 +2243,6 @@
         "Neutral.Stroke.2.enabled": "4d36790dff598ea20c8cf042c80783f23b2456a6",
         "Neutral.Stroke.3.enabled": "074663c30ea0d6abbe0e9f6a09dafe017528c954",
         "Neutral.Stroke.4.enabled": "9d454a383c9129aac0442b355a3554b127be1e67",
-        "Neutral.Stroke.Brand.Primary.Hovered": "206ddc509ec4c829b9b5f80c2329651e1d0a8792",
         "Status.Danger.Foreground.1.enabled": "a9d05022961539cbf4cc92bff491590736af608d",
         "Status.Danger.Background.1.enabled": "3bc64002b89acb6c1c5fdd2bbc83f82e24b70fed",
         "Status.Danger.Background.1.hovered": "a8067037dbd411b4815dec738b123bc81d9317e8",
@@ -2266,7 +2263,8 @@
         "Status.Success.Stroke.2.enabled": "9ee8e3a61d5230cf7d29def942bfb9dd7cec75a7",
         "Neutral.Foreground.Primary.hovered": "b71a09bdc4eeb5045691e05a809e86776243c14b",
         "Neutral.Foreground.Primary.selected": "27e8bf8a2f1f76b7c1a058c03352caa327ab03c5",
-        "Neutral.Background.Primary.Hovered": "6e8e57e3b4bec6ebd312c3a537268485ae9af10f"
+        "Neutral.Background.Primary.Hovered": "6e8e57e3b4bec6ebd312c3a537268485ae9af10f",
+        "Neutral.Stroke.Primary.Hovered": "206ddc509ec4c829b9b5f80c2329651e1d0a8792"
       },
       "$figmaCollectionId": "VariableCollectionId:19:216145",
       "$figmaModeId": "19:1",
