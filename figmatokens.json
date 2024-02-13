@@ -1191,18 +1191,16 @@
             "description": ""
           }
         },
-        "Brand": {
-          "Primary": {
-            "hovered": {
-              "value": "{colors.blue.500}",
-              "type": "color",
-              "description": ""
-            },
-            "selected": {
-              "value": "{colors.blue.500}",
-              "type": "color",
-              "description": ""
-            }
+        "Primary": {
+          "hovered": {
+            "value": "{colors.blue.500}",
+            "type": "color",
+            "description": ""
+          },
+          "selected": {
+            "value": "{colors.blue.500}",
+            "type": "color",
+            "description": ""
           }
         }
       },
@@ -2160,8 +2158,6 @@
         "Neutral.Foreground.3.hovered": "91b0482712f49a3f24f154c015a972276d443e0d",
         "Neutral.Foreground.OnBrand.enabled": "1966c2ca4180c5cdeda7cbb7a48bc4604eb518ad",
         "Neutral.Foreground.Inverted.enabled": "33e9dd4cc17c82efe13014c48f3bfc7933d51904",
-        "Neutral.Foreground.Brand.Primary.hovered": "b71a09bdc4eeb5045691e05a809e86776243c14b",
-        "Neutral.Foreground.Brand.Primary.selected": "27e8bf8a2f1f76b7c1a058c03352caa327ab03c5",
         "Neutral.Background.1.enabled": "89acdc9ac696aaa2c9efd5086b22d3e7e314a339",
         "Neutral.Background.2.enabled": "0ff601445d8d58c96844fd87ab0a1b6be9fd6054",
         "Neutral.Background.3.enabled": "f4f529b83ee3518ff3f6fc1f98712b048f42fd6d",
@@ -2194,7 +2190,9 @@
         "Status.Success.Background.1.hovered": "8e208abcfdc0e0fae3dcce50151cb80c877b1770",
         "Status.Success.Background.2.enabled": "004b079bd9befd63878786196f84ff12fae90ec8",
         "Status.Success.Stroke.1.enabled": "ca5739fc5165a62894b52409e9a54448971098cf",
-        "Status.Success.Stroke.2.enabled": "9ee8e3a61d5230cf7d29def942bfb9dd7cec75a7"
+        "Status.Success.Stroke.2.enabled": "9ee8e3a61d5230cf7d29def942bfb9dd7cec75a7",
+        "Neutral.Foreground.Primary.hovered": "b71a09bdc4eeb5045691e05a809e86776243c14b",
+        "Neutral.Foreground.Primary.selected": "27e8bf8a2f1f76b7c1a058c03352caa327ab03c5"
       },
       "$figmaCollectionId": "VariableCollectionId:19:216145",
       "$figmaModeId": "19:0",
@@ -2236,8 +2234,6 @@
         "Neutral.Foreground.3.hovered": "91b0482712f49a3f24f154c015a972276d443e0d",
         "Neutral.Foreground.OnBrand.enabled": "1966c2ca4180c5cdeda7cbb7a48bc4604eb518ad",
         "Neutral.Foreground.Inverted.enabled": "33e9dd4cc17c82efe13014c48f3bfc7933d51904",
-        "Neutral.Foreground.Brand.Primary.hovered": "b71a09bdc4eeb5045691e05a809e86776243c14b",
-        "Neutral.Foreground.Brand.Primary.selected": "27e8bf8a2f1f76b7c1a058c03352caa327ab03c5",
         "Neutral.Background.1.enabled": "89acdc9ac696aaa2c9efd5086b22d3e7e314a339",
         "Neutral.Background.2.enabled": "0ff601445d8d58c96844fd87ab0a1b6be9fd6054",
         "Neutral.Background.3.enabled": "f4f529b83ee3518ff3f6fc1f98712b048f42fd6d",
@@ -2270,7 +2266,9 @@
         "Status.Success.Background.1.hovered": "8e208abcfdc0e0fae3dcce50151cb80c877b1770",
         "Status.Success.Background.2.enabled": "004b079bd9befd63878786196f84ff12fae90ec8",
         "Status.Success.Stroke.1.enabled": "ca5739fc5165a62894b52409e9a54448971098cf",
-        "Status.Success.Stroke.2.enabled": "9ee8e3a61d5230cf7d29def942bfb9dd7cec75a7"
+        "Status.Success.Stroke.2.enabled": "9ee8e3a61d5230cf7d29def942bfb9dd7cec75a7",
+        "Neutral.Foreground.Primary.hovered": "b71a09bdc4eeb5045691e05a809e86776243c14b",
+        "Neutral.Foreground.Primary.selected": "27e8bf8a2f1f76b7c1a058c03352caa327ab03c5"
       },
       "$figmaCollectionId": "VariableCollectionId:19:216145",
       "$figmaModeId": "19:1",
