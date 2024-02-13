@@ -2224,10 +2224,10 @@
         "fonts": "source",
         "desktop": "enabled"
       },
-      "group": "platform",
       "$figmaCollectionId": "VariableCollectionId:2:2",
       "$figmaModeId": "2:0",
-      "$figmaVariableReferences": {}
+      "$figmaVariableReferences": {},
+      "group": "platform"
     },
     {
       "id": "71b2d9a0515a3b5aaab88b4103803e00483dc4db",
@@ -2283,7 +2283,6 @@
       "selectedTokenSets": {
         "colors": "enabled"
       },
-      "group": "colors",
       "$figmaCollectionId": "VariableCollectionId:2:3",
       "$figmaModeId": "2:2",
       "$figmaVariableReferences": {
@@ -2342,9 +2341,9 @@
         "colors.green.800": "5e3f02a0fcb5bb8cf0d69bc5549f28f1d79f0b93",
         "colors.green.900": "1ec6cf223effb87bd944f25bdd3381f0347615f6",
         "colors.grey.0": "7e031cdce27ee81a1a0c94adc7a943131e842be0",
+        "colors.grey.50": "eb59855424710aa7b6d143b67914f9797e9e3757",
         "colors.grey.100": "cb985792e9a0410980dc1c65965ceabdfb3e2fdb",
         "colors.grey.150": "d9544003500c4242963e4dc90b4da6ecd3ca26ec",
-        "colors.grey.50": "eb59855424710aa7b6d143b67914f9797e9e3757",
         "colors.grey.200": "b51cec3d8f2685a2a88ccbd48bb671db88c2d71f",
         "colors.grey.250": "da5d3b0d078b3a41453cb705ef9e92bfdeefb51e",
         "colors.grey.300": "8bec0b5ee1574f7f102be01c9b8d839458ab3177",
@@ -2358,7 +2357,8 @@
         "colors.grey.900": "0d0cf730091427795906d45974663d9f9bc39d3a",
         "colors.grey.950": "203567d53a4809c9dd17ffdbe140eb8561bc0a90",
         "colors.grey.1000": "ad23a3695ca4f548d61d6d965a758e53e44d73da"
-      }
+      },
+      "group": "colors"
     }
   ],
   "$metadata": {
