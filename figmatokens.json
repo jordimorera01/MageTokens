@@ -129,7 +129,7 @@
           }
         },
         "500": {
-          "value": "#7b9ae3",
+          "value": "#6e5db8",
           "type": "color"
         },
         "600": {
@@ -239,7 +239,7 @@
           }
         },
         "500": {
-          "value": "#fd4035",
+          "value": "#ff0d00",
           "type": "color"
         },
         "600": {
@@ -349,7 +349,7 @@
           }
         },
         "500": {
-          "value": "#ff7300",
+          "value": "#ffd800",
           "type": "color"
         },
         "600": {
@@ -621,7 +621,7 @@
           }
         },
         "500": {
-          "value": "#e6e2b0",
+          "value": "#9b9b9b",
           "type": "color"
         },
         "600": {
@@ -738,7 +738,7 @@
         "type": "fontFamilies"
       },
       "heading": {
-        "value": "Montserrat",
+        "value": "Rubik",
         "type": "fontFamilies"
       }
     },
@@ -1026,14 +1026,22 @@
       "Foreground": {
         "1": {
           "enabled": {
-            "value": "{colors.blue.500}",
-            "type": "color",
-            "description": ""
+            "value": "{colors.blue.800}",
+            "type": "color"
           },
           "hovered": {
-            "value": "{colors.blue.600}",
-            "type": "color",
-            "description": ""
+            "value": "{colors.blue.800}",
+            "type": "color"
+          }
+        },
+        "2": {
+          "enabled": {
+            "value": "{colors.blue.800}",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "{colors.blue.800}",
+            "type": "color"
           }
         }
       },
@@ -1463,14 +1471,22 @@
       "Foreground": {
         "1": {
           "enabled": {
-            "value": "{colors.blue.400}",
-            "type": "color",
-            "description": ""
+            "value": "{colors.blue.800}",
+            "type": "color"
           },
           "hovered": {
-            "value": "{colors.blue.300}",
-            "type": "color",
-            "description": ""
+            "value": "{colors.blue.900}",
+            "type": "color"
+          }
+        },
+        "2": {
+          "enabled": {
+            "value": "{colors.blue.200}",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "{colors.blue.200}",
+            "type": "color"
           }
         }
       },
@@ -1898,196 +1914,200 @@
   },
   "desktop": {
     "paragraph": {
-      "100": {
-        "medium": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.500}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.100}",
-            "letterSpacing": "{letterSpacings.100}",
-            "textCase": "{textCases.uppercase}"
-          },
-          "type": "typography"
-        }
-      },
-      "200": {
-        "medium": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.500}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.200}"
-          },
-          "type": "typography"
-        }
-      },
-      "300": {
-        "regular": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.400}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.300}"
-          },
-          "type": "typography"
-        }
-      },
-      "400": {
-        "regular": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.400}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.400}"
-          },
-          "type": "typography"
+      "paragraph": {
+        "100": {
+          "medium": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.500}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.100}",
+              "letterSpacing": "{letterSpacings.100}",
+              "textCase": "{textCases.uppercase}"
+            },
+            "type": "typography"
+          }
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.700}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.400}"
-          },
-          "type": "typography"
-        }
-      },
-      "500": {
-        "medium": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.500}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.500}"
-          },
-          "type": "typography"
+        "200": {
+          "medium": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.500}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.200}"
+            },
+            "type": "typography"
+          }
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.700}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.500}"
-          },
-          "type": "typography"
-        }
-      },
-      "600": {
-        "regular": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.400}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.700}"
-          },
-          "type": "typography"
+        "300": {
+          "regular": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.400}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.300}"
+            },
+            "type": "typography"
+          }
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.700}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.700}"
+        "400": {
+          "regular": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.400}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.400}"
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "bold": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.700}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.400}"
+            },
+            "type": "typography"
+          }
+        },
+        "500": {
+          "medium": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.500}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.500}"
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.700}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.500}"
+            },
+            "type": "typography"
+          }
+        },
+        "600": {
+          "regular": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.400}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.700}"
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.700}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.700}"
+            },
+            "type": "typography"
+          }
         }
       }
     },
     "heading": {
-      "100": {
-        "medium": {
-          "value": {
-            "fontFamily": "{fontFamilies.base}",
-            "fontWeight": "{fontWeights.500}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.200}",
-            "letterSpacing": "{letterSpacings.100}",
-            "textCase": "{textCases.uppercase}"
-          },
-          "type": "typography"
-        }
-      },
-      "200": {
-        "medium": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.500}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.400}"
-          },
-          "type": "typography"
-        }
-      },
-      "300": {
-        "regular": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.400}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.900}"
-          },
-          "type": "typography"
-        }
-      },
-      "400": {
-        "regular": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.400}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.1000}"
-          },
-          "type": "typography"
+      "heading": {
+        "100": {
+          "medium": {
+            "value": {
+              "fontFamily": "{fontFamilies.base}",
+              "fontWeight": "{fontWeights.500}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.200}",
+              "letterSpacing": "{letterSpacings.100}",
+              "textCase": "{textCases.uppercase}"
+            },
+            "type": "typography"
+          }
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.700}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.1000}"
-          },
-          "type": "typography"
-        }
-      },
-      "500": {
-        "medium": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.500}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.1100}"
-          },
-          "type": "typography"
+        "200": {
+          "medium": {
+            "value": {
+              "fontFamily": "{fontFamilies.heading}",
+              "fontWeight": "{fontWeights.500}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.400}"
+            },
+            "type": "typography"
+          }
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.700}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.1100}"
-          },
-          "type": "typography"
-        }
-      },
-      "600": {
-        "regular": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.400}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.1300}"
-          },
-          "type": "typography"
+        "300": {
+          "regular": {
+            "value": {
+              "fontFamily": "{fontFamilies.heading}",
+              "fontWeight": "{fontWeights.400}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.900}"
+            },
+            "type": "typography"
+          }
         },
-        "bold": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.700}",
-            "lineHeight": "{lineHeights.400}",
-            "fontSize": "{fontSizes.1300}"
+        "400": {
+          "regular": {
+            "value": {
+              "fontFamily": "{fontFamilies.heading}",
+              "fontWeight": "{fontWeights.400}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.1000}"
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "bold": {
+            "value": {
+              "fontFamily": "{fontFamilies.heading}",
+              "fontWeight": "{fontWeights.700}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.1000}"
+            },
+            "type": "typography"
+          }
+        },
+        "500": {
+          "medium": {
+            "value": {
+              "fontFamily": "{fontFamilies.heading}",
+              "fontWeight": "{fontWeights.500}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.1100}"
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "{fontFamilies.heading}",
+              "fontWeight": "{fontWeights.700}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.1100}"
+            },
+            "type": "typography"
+          }
+        },
+        "600": {
+          "regular": {
+            "value": {
+              "fontFamily": "{fontFamilies.heading}",
+              "fontWeight": "{fontWeights.400}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.1300}"
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "{fontFamilies.heading}",
+              "fontWeight": "{fontWeights.700}",
+              "lineHeight": "{lineHeights.400}",
+              "fontSize": "{fontSizes.1300}"
+            },
+            "type": "typography"
+          }
         }
       }
     }
@@ -2117,71 +2137,73 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "Primary.Foreground.1.enabled": "8c4e90585e043ef87d142d0e41935992d1262b9a",
-        "Primary.Foreground.1.hovered": "0309507b5904454d15e5c405656c1894f5e69a92",
-        "Primary.Background.1.enabled": "bec8a2def56f04997b6a5a2071200bedb0b2bd3d",
-        "Primary.Background.1.hovered": "aa0fd055209c7bace02f4bb70ebf51c7d4f0a786",
-        "Primary.Background.1.selected": "13da3bf73dfef0beac77350a6803dab16fcb7e26",
-        "Primary.Background.2.enabled": "b8925e83686eed03755908b95c4f7557b501c9b3",
-        "Primary.Background.2.hovered": "3ce97541159900e73e0bbc6aad2ca06ef6fbe99c",
-        "Primary.Background.2.selected": "71285756c291ec4f1dad61614069bc8682b03021",
-        "Primary.Background.3.enabled": "91f931d6c795d9231480cd57cae67941c596f084",
-        "Primary.Background.3.hovered": "13e7d61cc9d1cf54365a153152d1105b68c2428e",
-        "Primary.Background.3.selected": "19d80bf8258509741cd5a41246358b489a0a03fc",
-        "Primary.Background.Subtle.enabled": "899ca0c5868875d970e0d71b8b86d547ff4bc1a4",
-        "Primary.Background.Subtle.hovered": "ab8829d02b9414ed0948a19a6fde7c4a9534a1a7",
-        "Primary.Stroke.1.enabled": "c5d6b740bd1785e1683dff3885c0d0868f84ac88",
-        "Primary.Stroke.2.enabled": "a5e54d100b9a4376b0599f9d17dfc8d85d191459",
-        "Primary.Stroke.2.hovered": "19e45b7e45f37977cba7d217508dc538b55d3b9f",
-        "Primary.Stroke.2.selected": "f07532e71f4bf78bb5c17c7e24b789b6b50792e0",
-        "Neutral.Foreground.1.enabled": "497e12f6b59525e61ce300fdb2f990dd9d32985e",
-        "Neutral.Foreground.1.hovered": "b108afa5db5d770f4578de71ad4236e2f91811f5",
-        "Neutral.Foreground.1.selected": "395fda61d67de8cbf50372d22c7d9b7c2b733789",
-        "Neutral.Foreground.2.enabled": "0e03b627ed63767cb1c6f73ee219383d1c85311b",
-        "Neutral.Foreground.2.hovered": "452978c668861aff2783f9861433739696419f75",
-        "Neutral.Foreground.2.selected": "b4ec14deeed58b4c66237588a6c35a03a803f354",
-        "Neutral.Foreground.3.enabled": "08a809df201df6a8092a0bf3387a1897dd061986",
-        "Neutral.Foreground.3.hovered": "91b0482712f49a3f24f154c015a972276d443e0d",
-        "Neutral.Foreground.OnBrand.enabled": "1966c2ca4180c5cdeda7cbb7a48bc4604eb518ad",
-        "Neutral.Foreground.Inverted.enabled": "33e9dd4cc17c82efe13014c48f3bfc7933d51904",
-        "Neutral.Background.1.enabled": "89acdc9ac696aaa2c9efd5086b22d3e7e314a339",
-        "Neutral.Background.2.enabled": "0ff601445d8d58c96844fd87ab0a1b6be9fd6054",
-        "Neutral.Background.3.enabled": "f4f529b83ee3518ff3f6fc1f98712b048f42fd6d",
-        "Neutral.Background.4.enabled": "d09c8afa98b0f432cc36092242ba4ef54dcd6750",
-        "Neutral.Background.Inverted.1.enabled": "2baf00127b8930e6fc41e270f2f5b760e218fd93",
-        "Neutral.Background.Inverted.1.hovered": "5dd007961861f2ca551f430243a243c765151f09",
-        "Neutral.Background.Inverted.2.enabled": "df751b9b40e50cc9ee6668efbbc0d3050f795da8",
-        "Neutral.Background.Inverted.2.hovered": "d8ada33a0de516db5c38f556e6a16bd22101dda3",
-        "Neutral.Background.Alpha.enabled": "63813b83b069a0bec0100170970011052b4f5eb1",
-        "Neutral.Stroke.1.enabled": "52162df6a2d12d6e2a102279c78995d430ad212a",
-        "Neutral.Stroke.2.enabled": "4d36790dff598ea20c8cf042c80783f23b2456a6",
-        "Neutral.Stroke.3.enabled": "074663c30ea0d6abbe0e9f6a09dafe017528c954",
-        "Neutral.Stroke.4.enabled": "9d454a383c9129aac0442b355a3554b127be1e67",
-        "Status.Danger.Foreground.1.enabled": "a9d05022961539cbf4cc92bff491590736af608d",
-        "Status.Danger.Background.1.enabled": "3bc64002b89acb6c1c5fdd2bbc83f82e24b70fed",
-        "Status.Danger.Background.1.hovered": "a8067037dbd411b4815dec738b123bc81d9317e8",
-        "Status.Danger.Background.2.enabled": "fd398ec72d6142a8b591143f60d30856ab1c62b1",
-        "Status.Danger.Stroke.1.enabled": "38c36c865f9f19ae57d448aa4f1719ed852948b3",
-        "Status.Danger.Stroke.2.enabled": "cb3a8ece9637edbd05f1a7bf3fbfe738d166b043",
-        "Status.Warning.Foreground.1.enabled": "24d25de10add5a53dcd9e05ad2c268a761ed3c11",
-        "Status.Warning.Background.1.enabled": "12191f28f58064d473d55a960912273a53f3d877",
-        "Status.Warning.Background.1.hovered": "b026ef6e4d31a0544ba72ab89405f91c945c07db",
-        "Status.Warning.Background.2.enabled": "b2d04f8546dea76952d7400a5f4636c68d37434d",
-        "Status.Warning.Stroke.1.enabled": "41a7341a6af647c37c473001297f418c51deb7c3",
-        "Status.Warning.Stroke.2.enabled": "35376b5a4aec7edb88a2446821b3a0b356928fce",
-        "Status.Success.Foreground.1.enabled": "1daba4794fdd03b47e4f641493c72bb3e246fdeb",
-        "Status.Success.Background.1.enabled": "925306e8de0458d92bfdbf210b9d114d8ea5c0ac",
-        "Status.Success.Background.1.hovered": "8e208abcfdc0e0fae3dcce50151cb80c877b1770",
-        "Status.Success.Background.2.enabled": "004b079bd9befd63878786196f84ff12fae90ec8",
-        "Status.Success.Stroke.1.enabled": "ca5739fc5165a62894b52409e9a54448971098cf",
-        "Status.Success.Stroke.2.enabled": "9ee8e3a61d5230cf7d29def942bfb9dd7cec75a7",
-        "Neutral.Foreground.Primary.hovered": "b71a09bdc4eeb5045691e05a809e86776243c14b",
-        "Neutral.Foreground.Primary.selected": "27e8bf8a2f1f76b7c1a058c03352caa327ab03c5",
-        "Neutral.Background.Primary.Hovered": "6e8e57e3b4bec6ebd312c3a537268485ae9af10f",
-        "Neutral.Stroke.Primary.Hovered": "206ddc509ec4c829b9b5f80c2329651e1d0a8792"
+        "Primary.Foreground.1.enabled": "27e750fd24d4065510707642659e2b6a2df24b8e",
+        "Primary.Foreground.1.hovered": "30570776283664425b231ebe38875b7d1565b122",
+        "Primary.Background.1.enabled": "85903ff135769b062b25b362f587269be46f4d55",
+        "Primary.Background.1.hovered": "96f769e7bb4d9c50178aa7ab77850d6883f32319",
+        "Primary.Background.1.selected": "d53095001d2b7f6d7a3ac44037833547305a8e1d",
+        "Primary.Background.2.enabled": "1641f3a5299ff5bd17e22b3d810f625975557c55",
+        "Primary.Background.2.hovered": "1b23a77cfc75b5424a76768cd55333734f2dc28a",
+        "Primary.Background.2.selected": "a70f457735af62be652a48e2e138e97ab96a925c",
+        "Primary.Background.3.enabled": "82a2c0b56459aafc3672243f5e2ae60c016c8374",
+        "Primary.Background.3.hovered": "59be664b2776f825b558876efc2e899c3662e03f",
+        "Primary.Background.3.selected": "26bee1e56405513d33a3e17b9d4c440bd8127531",
+        "Primary.Background.Subtle.enabled": "6392d250214e2a65b3d691f55c761923fd7983c0",
+        "Primary.Background.Subtle.hovered": "a7200519782b720fb7c5edccfe0d91a61e36e024",
+        "Primary.Stroke.1.enabled": "3b160d12965ec6a7961daa30e7896b8edec4cbc0",
+        "Primary.Stroke.2.enabled": "09cc7fd3f3d8c4200a711fb0e651117bd2b1e980",
+        "Primary.Stroke.2.hovered": "0db8faa86e1e1177a87043891d24816f17feafa0",
+        "Primary.Stroke.2.selected": "940a39909c0b85e49fab50a849029cab865bcdba",
+        "Neutral.Foreground.1.enabled": "4fd667882f38d07d72bd1d85957e005d967b28bb",
+        "Neutral.Foreground.1.hovered": "4792138eb4dc9402a4a0327dc35ab9dab9db54b1",
+        "Neutral.Foreground.1.selected": "dfc2c7aa33a2e121f4fc9141ce190471b5d28e30",
+        "Neutral.Foreground.2.enabled": "495666bf50cf97aecfcfa22b822be2ff4c0d92c8",
+        "Neutral.Foreground.2.hovered": "127f332c735fa9762b7f8d74108c0deeafbdc1e0",
+        "Neutral.Foreground.2.selected": "f39b2d2ac54a57eaabe66c1f152a8218560c03ee",
+        "Neutral.Foreground.3.enabled": "80e5916e16741cb874767ef5515b9196be2428b4",
+        "Neutral.Foreground.3.hovered": "a0fe76a072ea5b4c6c2bf814894876150d4d496a",
+        "Neutral.Foreground.OnBrand.enabled": "588a20e2eb1d23a07ab8f52b2bdf285206f022cc",
+        "Neutral.Foreground.Inverted.enabled": "3ee234edb67f19bdd8cb4c56062369c8d237173a",
+        "Neutral.Foreground.Primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
+        "Neutral.Foreground.Primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
+        "Neutral.Background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
+        "Neutral.Background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
+        "Neutral.Background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
+        "Neutral.Background.4.enabled": "5101ff87ae51863bb234f44aaa0924ff3429231c",
+        "Neutral.Background.Inverted.1.enabled": "6643dc6b385a38274d9124963ed42208e505df35",
+        "Neutral.Background.Inverted.1.hovered": "f0a5d2f8c55d4d111faec6b5318d50582d0e69d7",
+        "Neutral.Background.Inverted.2.enabled": "b1eae2b084114eb3e17bac789f3ced320b74b248",
+        "Neutral.Background.Inverted.2.hovered": "3d707ea126c29ab3019b221f2122f3d6760625c7",
+        "Neutral.Background.Alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
+        "Neutral.Background.Primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
+        "Neutral.Stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
+        "Neutral.Stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
+        "Neutral.Stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
+        "Neutral.Stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
+        "Neutral.Stroke.Primary.Hovered": "657971f8657a4477008371a45964a41660a0228e",
+        "Status.Danger.Foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
+        "Status.Danger.Background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
+        "Status.Danger.Background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
+        "Status.Danger.Background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
+        "Status.Danger.Stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
+        "Status.Danger.Stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
+        "Status.Warning.Foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
+        "Status.Warning.Background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
+        "Status.Warning.Background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
+        "Status.Warning.Background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
+        "Status.Warning.Stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
+        "Status.Warning.Stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
+        "Status.Success.Foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
+        "Status.Success.Background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
+        "Status.Success.Background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
+        "Status.Success.Background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
+        "Status.Success.Stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
+        "Status.Success.Stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e",
+        "Primary.Foreground.2.enabled": "5a17064d3442984d3c7125049e63073b41f8e5a2",
+        "Primary.Foreground.2.hovered": "f3d59d6fc447a2b71d3e0de66e61028bf8c4eaae"
       },
-      "$figmaCollectionId": "VariableCollectionId:19:216145",
-      "$figmaModeId": "19:0",
+      "$figmaCollectionId": "VariableCollectionId:5601:9057",
+      "$figmaModeId": "5601:0",
       "group": "mode"
     },
     {
@@ -2193,71 +2215,73 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "Primary.Foreground.1.enabled": "8c4e90585e043ef87d142d0e41935992d1262b9a",
-        "Primary.Foreground.1.hovered": "0309507b5904454d15e5c405656c1894f5e69a92",
-        "Primary.Background.1.enabled": "bec8a2def56f04997b6a5a2071200bedb0b2bd3d",
-        "Primary.Background.1.hovered": "aa0fd055209c7bace02f4bb70ebf51c7d4f0a786",
-        "Primary.Background.1.selected": "13da3bf73dfef0beac77350a6803dab16fcb7e26",
-        "Primary.Background.2.enabled": "b8925e83686eed03755908b95c4f7557b501c9b3",
-        "Primary.Background.2.hovered": "3ce97541159900e73e0bbc6aad2ca06ef6fbe99c",
-        "Primary.Background.2.selected": "71285756c291ec4f1dad61614069bc8682b03021",
-        "Primary.Background.3.enabled": "91f931d6c795d9231480cd57cae67941c596f084",
-        "Primary.Background.3.hovered": "13e7d61cc9d1cf54365a153152d1105b68c2428e",
-        "Primary.Background.3.selected": "19d80bf8258509741cd5a41246358b489a0a03fc",
-        "Primary.Background.Subtle.enabled": "899ca0c5868875d970e0d71b8b86d547ff4bc1a4",
-        "Primary.Background.Subtle.hovered": "ab8829d02b9414ed0948a19a6fde7c4a9534a1a7",
-        "Primary.Stroke.1.enabled": "c5d6b740bd1785e1683dff3885c0d0868f84ac88",
-        "Primary.Stroke.2.enabled": "a5e54d100b9a4376b0599f9d17dfc8d85d191459",
-        "Primary.Stroke.2.hovered": "19e45b7e45f37977cba7d217508dc538b55d3b9f",
-        "Primary.Stroke.2.selected": "f07532e71f4bf78bb5c17c7e24b789b6b50792e0",
-        "Neutral.Foreground.1.enabled": "497e12f6b59525e61ce300fdb2f990dd9d32985e",
-        "Neutral.Foreground.1.hovered": "b108afa5db5d770f4578de71ad4236e2f91811f5",
-        "Neutral.Foreground.1.selected": "395fda61d67de8cbf50372d22c7d9b7c2b733789",
-        "Neutral.Foreground.2.enabled": "0e03b627ed63767cb1c6f73ee219383d1c85311b",
-        "Neutral.Foreground.2.hovered": "452978c668861aff2783f9861433739696419f75",
-        "Neutral.Foreground.2.selected": "b4ec14deeed58b4c66237588a6c35a03a803f354",
-        "Neutral.Foreground.3.enabled": "08a809df201df6a8092a0bf3387a1897dd061986",
-        "Neutral.Foreground.3.hovered": "91b0482712f49a3f24f154c015a972276d443e0d",
-        "Neutral.Foreground.OnBrand.enabled": "1966c2ca4180c5cdeda7cbb7a48bc4604eb518ad",
-        "Neutral.Foreground.Inverted.enabled": "33e9dd4cc17c82efe13014c48f3bfc7933d51904",
-        "Neutral.Background.1.enabled": "89acdc9ac696aaa2c9efd5086b22d3e7e314a339",
-        "Neutral.Background.2.enabled": "0ff601445d8d58c96844fd87ab0a1b6be9fd6054",
-        "Neutral.Background.3.enabled": "f4f529b83ee3518ff3f6fc1f98712b048f42fd6d",
-        "Neutral.Background.4.enabled": "d09c8afa98b0f432cc36092242ba4ef54dcd6750",
-        "Neutral.Background.Inverted.1.enabled": "2baf00127b8930e6fc41e270f2f5b760e218fd93",
-        "Neutral.Background.Inverted.1.hovered": "5dd007961861f2ca551f430243a243c765151f09",
-        "Neutral.Background.Inverted.2.enabled": "df751b9b40e50cc9ee6668efbbc0d3050f795da8",
-        "Neutral.Background.Inverted.2.hovered": "d8ada33a0de516db5c38f556e6a16bd22101dda3",
-        "Neutral.Background.Alpha.enabled": "63813b83b069a0bec0100170970011052b4f5eb1",
-        "Neutral.Stroke.1.enabled": "52162df6a2d12d6e2a102279c78995d430ad212a",
-        "Neutral.Stroke.2.enabled": "4d36790dff598ea20c8cf042c80783f23b2456a6",
-        "Neutral.Stroke.3.enabled": "074663c30ea0d6abbe0e9f6a09dafe017528c954",
-        "Neutral.Stroke.4.enabled": "9d454a383c9129aac0442b355a3554b127be1e67",
-        "Status.Danger.Foreground.1.enabled": "a9d05022961539cbf4cc92bff491590736af608d",
-        "Status.Danger.Background.1.enabled": "3bc64002b89acb6c1c5fdd2bbc83f82e24b70fed",
-        "Status.Danger.Background.1.hovered": "a8067037dbd411b4815dec738b123bc81d9317e8",
-        "Status.Danger.Background.2.enabled": "fd398ec72d6142a8b591143f60d30856ab1c62b1",
-        "Status.Danger.Stroke.1.enabled": "38c36c865f9f19ae57d448aa4f1719ed852948b3",
-        "Status.Danger.Stroke.2.enabled": "cb3a8ece9637edbd05f1a7bf3fbfe738d166b043",
-        "Status.Warning.Foreground.1.enabled": "24d25de10add5a53dcd9e05ad2c268a761ed3c11",
-        "Status.Warning.Background.1.enabled": "12191f28f58064d473d55a960912273a53f3d877",
-        "Status.Warning.Background.1.hovered": "b026ef6e4d31a0544ba72ab89405f91c945c07db",
-        "Status.Warning.Background.2.enabled": "b2d04f8546dea76952d7400a5f4636c68d37434d",
-        "Status.Warning.Stroke.1.enabled": "41a7341a6af647c37c473001297f418c51deb7c3",
-        "Status.Warning.Stroke.2.enabled": "35376b5a4aec7edb88a2446821b3a0b356928fce",
-        "Status.Success.Foreground.1.enabled": "1daba4794fdd03b47e4f641493c72bb3e246fdeb",
-        "Status.Success.Background.1.enabled": "925306e8de0458d92bfdbf210b9d114d8ea5c0ac",
-        "Status.Success.Background.1.hovered": "8e208abcfdc0e0fae3dcce50151cb80c877b1770",
-        "Status.Success.Background.2.enabled": "004b079bd9befd63878786196f84ff12fae90ec8",
-        "Status.Success.Stroke.1.enabled": "ca5739fc5165a62894b52409e9a54448971098cf",
-        "Status.Success.Stroke.2.enabled": "9ee8e3a61d5230cf7d29def942bfb9dd7cec75a7",
-        "Neutral.Foreground.Primary.hovered": "b71a09bdc4eeb5045691e05a809e86776243c14b",
-        "Neutral.Foreground.Primary.selected": "27e8bf8a2f1f76b7c1a058c03352caa327ab03c5",
-        "Neutral.Background.Primary.Hovered": "6e8e57e3b4bec6ebd312c3a537268485ae9af10f",
-        "Neutral.Stroke.Primary.Hovered": "206ddc509ec4c829b9b5f80c2329651e1d0a8792"
+        "Primary.Foreground.1.enabled": "27e750fd24d4065510707642659e2b6a2df24b8e",
+        "Primary.Foreground.1.hovered": "30570776283664425b231ebe38875b7d1565b122",
+        "Primary.Background.1.enabled": "85903ff135769b062b25b362f587269be46f4d55",
+        "Primary.Background.1.hovered": "96f769e7bb4d9c50178aa7ab77850d6883f32319",
+        "Primary.Background.1.selected": "d53095001d2b7f6d7a3ac44037833547305a8e1d",
+        "Primary.Background.2.enabled": "1641f3a5299ff5bd17e22b3d810f625975557c55",
+        "Primary.Background.2.hovered": "1b23a77cfc75b5424a76768cd55333734f2dc28a",
+        "Primary.Background.2.selected": "a70f457735af62be652a48e2e138e97ab96a925c",
+        "Primary.Background.3.enabled": "82a2c0b56459aafc3672243f5e2ae60c016c8374",
+        "Primary.Background.3.hovered": "59be664b2776f825b558876efc2e899c3662e03f",
+        "Primary.Background.3.selected": "26bee1e56405513d33a3e17b9d4c440bd8127531",
+        "Primary.Background.Subtle.enabled": "6392d250214e2a65b3d691f55c761923fd7983c0",
+        "Primary.Background.Subtle.hovered": "a7200519782b720fb7c5edccfe0d91a61e36e024",
+        "Primary.Stroke.1.enabled": "3b160d12965ec6a7961daa30e7896b8edec4cbc0",
+        "Primary.Stroke.2.enabled": "09cc7fd3f3d8c4200a711fb0e651117bd2b1e980",
+        "Primary.Stroke.2.hovered": "0db8faa86e1e1177a87043891d24816f17feafa0",
+        "Primary.Stroke.2.selected": "940a39909c0b85e49fab50a849029cab865bcdba",
+        "Neutral.Foreground.1.enabled": "4fd667882f38d07d72bd1d85957e005d967b28bb",
+        "Neutral.Foreground.1.hovered": "4792138eb4dc9402a4a0327dc35ab9dab9db54b1",
+        "Neutral.Foreground.1.selected": "dfc2c7aa33a2e121f4fc9141ce190471b5d28e30",
+        "Neutral.Foreground.2.enabled": "495666bf50cf97aecfcfa22b822be2ff4c0d92c8",
+        "Neutral.Foreground.2.hovered": "127f332c735fa9762b7f8d74108c0deeafbdc1e0",
+        "Neutral.Foreground.2.selected": "f39b2d2ac54a57eaabe66c1f152a8218560c03ee",
+        "Neutral.Foreground.3.enabled": "80e5916e16741cb874767ef5515b9196be2428b4",
+        "Neutral.Foreground.3.hovered": "a0fe76a072ea5b4c6c2bf814894876150d4d496a",
+        "Neutral.Foreground.OnBrand.enabled": "588a20e2eb1d23a07ab8f52b2bdf285206f022cc",
+        "Neutral.Foreground.Inverted.enabled": "3ee234edb67f19bdd8cb4c56062369c8d237173a",
+        "Neutral.Foreground.Primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
+        "Neutral.Foreground.Primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
+        "Neutral.Background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
+        "Neutral.Background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
+        "Neutral.Background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
+        "Neutral.Background.4.enabled": "5101ff87ae51863bb234f44aaa0924ff3429231c",
+        "Neutral.Background.Inverted.1.enabled": "6643dc6b385a38274d9124963ed42208e505df35",
+        "Neutral.Background.Inverted.1.hovered": "f0a5d2f8c55d4d111faec6b5318d50582d0e69d7",
+        "Neutral.Background.Inverted.2.enabled": "b1eae2b084114eb3e17bac789f3ced320b74b248",
+        "Neutral.Background.Inverted.2.hovered": "3d707ea126c29ab3019b221f2122f3d6760625c7",
+        "Neutral.Background.Alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
+        "Neutral.Background.Primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
+        "Neutral.Stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
+        "Neutral.Stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
+        "Neutral.Stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
+        "Neutral.Stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
+        "Neutral.Stroke.Primary.Hovered": "657971f8657a4477008371a45964a41660a0228e",
+        "Status.Danger.Foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
+        "Status.Danger.Background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
+        "Status.Danger.Background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
+        "Status.Danger.Background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
+        "Status.Danger.Stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
+        "Status.Danger.Stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
+        "Status.Warning.Foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
+        "Status.Warning.Background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
+        "Status.Warning.Background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
+        "Status.Warning.Background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
+        "Status.Warning.Stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
+        "Status.Warning.Stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
+        "Status.Success.Foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
+        "Status.Success.Background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
+        "Status.Success.Background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
+        "Status.Success.Background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
+        "Status.Success.Stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
+        "Status.Success.Stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e",
+        "Primary.Foreground.2.enabled": "5a17064d3442984d3c7125049e63073b41f8e5a2",
+        "Primary.Foreground.2.hovered": "f3d59d6fc447a2b71d3e0de66e61028bf8c4eaae"
       },
-      "$figmaCollectionId": "VariableCollectionId:19:216145",
-      "$figmaModeId": "19:1",
+      "$figmaCollectionId": "VariableCollectionId:5601:9057",
+      "$figmaModeId": "5601:1",
       "group": "mode"
     },
     {
@@ -2268,8 +2292,8 @@
         "fonts": "source",
         "desktop": "enabled"
       },
-      "$figmaCollectionId": "VariableCollectionId:2:2",
-      "$figmaModeId": "2:0",
+      "$figmaCollectionId": "VariableCollectionId:5601:9120",
+      "$figmaModeId": "5601:2",
       "$figmaVariableReferences": {},
       "group": "platform"
     },
@@ -2281,8 +2305,8 @@
         "fonts": "source"
       },
       "group": "platform",
-      "$figmaCollectionId": "VariableCollectionId:2:2",
-      "$figmaModeId": "2:1",
+      "$figmaCollectionId": "VariableCollectionId:5601:9120",
+      "$figmaModeId": "5601:3",
       "$figmaVariableReferences": {}
     },
     {
@@ -2293,31 +2317,31 @@
         "dimensions": "enabled"
       },
       "group": "dimensions",
-      "$figmaCollectionId": "VariableCollectionId:1:461",
-      "$figmaModeId": "1:16",
+      "$figmaCollectionId": "VariableCollectionId:5601:9121",
+      "$figmaModeId": "5601:4",
       "$figmaVariableReferences": {
-        "spacing.0": "9a247ddbfe1caa6fe30bcbe94fc60114a88269d9",
-        "spacing.100": "eac019608e9df2d11942e39b3230190b9bd466c6",
-        "spacing.200": "e56bb37114d6fc868dea328669a24eb14082a6ba",
-        "spacing.300": "4a91798c04af98a4834fc659f9d9a55c96843307",
-        "spacing.400": "aed423fccbe7cdd1ff357513aeb76771496b7331",
-        "spacing.500": "0b3e0f6caff5ca175d94baa63e6d9406d8d97ce3",
-        "spacing.600": "e076b80cfa746bc00cbc579df6f80b2c4c359ad4",
-        "spacing.700": "b38f380611493ee1073676ed6189485801ea0bcb",
-        "spacing.800": "0a58b7b3006e6dee859da2dac969e7082678608f",
-        "spacing.900": "200fb7021f60f4baceb83a86fce467e75384ddfa",
-        "spacing.1000": "b365bfc35a234bea9ac3bb1b004a70778c499bc9",
-        "borderRadius.0": "afa351c601022b4dbd6b6ada19afc5b0b9f2ab8b",
-        "borderRadius.100": "6c394b5b5ea5d1b52d1bcffff4ae314b88b91d51",
-        "borderRadius.200": "99d38d7f312b5c1fc41f5f496ac7ff0a2cbbb225",
-        "borderRadius.300": "d7849ecf1ebed522b7b12a4fa6ddd50699adf88e",
-        "borderRadius.400": "406e8a9eb47587a3c05644aa9340e575d0abb1c5",
-        "borderRadius.500": "daa3c5b152dec6c22f33c01f034d54d9137fb7d0",
-        "borderRadius.600": "201af6487507c9eda9dda8a33708608475b46684",
-        "borderRadius.700": "eead305ad0f22b5326a4742473c948fac7111258",
-        "borderRadius.800": "80844afb86cbe79f562ca1e58918223206d854c7",
-        "borderRadius.900": "a919bb8f21247379818b806a75f314494f5e787b",
-        "borderRadius.1000": "8db548a19dc5df22b784a677503cb4d6a9bb94ba"
+        "spacing.0": "26311735cb170d1d1816bd28cae7df071aaae322",
+        "spacing.100": "8835fd03e9aa58ff2f77983d41ee9f7b362c873a",
+        "spacing.200": "9689c4a616be6d060425f278c850a06cf94f02ed",
+        "spacing.300": "5d15f62468ff7b384d87103a5c0922310bd22a90",
+        "spacing.400": "81a031c0022733c0ab4c48188c1b7f7660ed749f",
+        "spacing.500": "8cb8cecea325f24fd92ba53cbcb6ae8678a77809",
+        "spacing.600": "f049663fcfd16d17c88ec0e8196b9c2ba161934c",
+        "spacing.700": "8b29d0fbe817cbd14ee4cb2ca207686bbd80645c",
+        "spacing.800": "e06813f234cf1de6ca7c8a3b9d0a03e65a57c389",
+        "spacing.900": "8db843dc8f69aa8621af0c6fec86f21fc93fbb64",
+        "spacing.1000": "e140a7444c252dbf5dc0147fbf6bf00aa383962d",
+        "borderRadius.0": "1f185b82a6bc562a129eba4757fc006dc940bca9",
+        "borderRadius.100": "1184d937ba35ffb8294f71dd9ea1fd22256af991",
+        "borderRadius.200": "709631b42d896fc3e8bfbc9f962133f26205f6f9",
+        "borderRadius.300": "d12a1b2109937880d269f362d03f8c59154d7935",
+        "borderRadius.400": "91b1b46c0868ceb07f0c31250bf31b575d0354d7",
+        "borderRadius.500": "f10c4107c3b154e717b74fe90c8e042a1c61269b",
+        "borderRadius.600": "3b3f1669adfc93b19a9f69fc47db2d893ff4ccdd",
+        "borderRadius.700": "942feb628bc95d3fd632b731c75be4dc9e205148",
+        "borderRadius.800": "2e9eb7fbf1a5acbc0f7846b3ccc7850a6ca9f87a",
+        "borderRadius.900": "9a4c18fcf13f7018e7c1978841b1454272484f76",
+        "borderRadius.1000": "6c19d22bf19e8da3a4c682031b49fa3cfff9398a"
       }
     },
     {
@@ -2327,80 +2351,80 @@
       "selectedTokenSets": {
         "colors": "enabled"
       },
-      "$figmaCollectionId": "VariableCollectionId:2:3",
-      "$figmaModeId": "2:2",
+      "$figmaCollectionId": "VariableCollectionId:5601:9144",
+      "$figmaModeId": "5601:5",
       "$figmaVariableReferences": {
-        "colors.modifier.50": "11a7a9042c4903c0d399316f47888204a3a9eb71",
-        "colors.modifier.100": "5b223072f46f8cba0831fbe591b26e6afa25f760",
-        "colors.modifier.150": "0f732485792af87f16858a602ddc9f320aaf57b2",
-        "colors.modifier.200": "fbdf452a23ebc9c745f9339fcfc3af476ec8abdb",
-        "colors.modifier.250": "78bd30745d583d96004353a3c914e6ca49441761",
-        "colors.modifier.300": "69bdda30a117ee232ba328f9ea5bc75a0b33523c",
-        "colors.modifier.350": "d041346dbae09f03cdde6f5f22d7fdf7c795015d",
-        "colors.modifier.400": "682adbfdbda7b56b1e96fe59fc284c51fdc7cadd",
-        "colors.modifier.450": "f09cfda0923568f2ef093fac27e3be5ab8ff2a24",
-        "colors.modifier.550": "ff62539dbecca3995ffbf656b763e3b3ffd85e53",
-        "colors.modifier.600": "e69e5b94ebb6ea0881a89a9ebb36346203e6818e",
-        "colors.modifier.650": "26d983c4678251de66e1e99be2a521e4b95244f8",
-        "colors.modifier.700": "fbb585b2d66e796c1f13a6f89fbc57109d30a74b",
-        "colors.modifier.750": "0d8d2f58b7b8dfaf0e84d5b5f92d87d75329af95",
-        "colors.modifier.800": "c2c046876e5d7406369ecc2c3b3f2f796176a492",
-        "colors.modifier.850": "a5804f169e15ed90e2f590763e85030fca6d3f9d",
-        "colors.modifier.900": "52b5483dda376100202935ead9db3ed6d83f467d",
-        "colors.modifier.950": "a4897d12f6a147448b33a0664286c9d6757b6991",
-        "colors.blue.100": "b8448e376512baaeb562151b0962a6a9f27f0fb1",
-        "colors.blue.200": "3896a6d74b5b4d681878002f3c53534c0d4c8c1d",
-        "colors.blue.300": "7eb6eae29cd00525534a6ba6c2e6bd7b13623444",
-        "colors.blue.400": "34f82d7a0b8efd114510f2580ad1a023b5a66db0",
-        "colors.blue.500": "6bc34329250d5728225e11f49ae647df6092f300",
-        "colors.blue.600": "1424d2d411f18d4756f695eb64021bff4471ad61",
-        "colors.blue.700": "d19fb54762e002733541632ae881ae4bbe6eed1c",
-        "colors.blue.800": "ba749cb173ac76a44a724d5aad39aab75494ed16",
-        "colors.blue.900": "f69266e52f5998d179f8499efab492fc9cea026a",
-        "colors.red.100": "817f08103a7421bece301ab31f75144591279df5",
-        "colors.red.200": "738bd384cbd6bcd9357232a4d6c3ea2e4ba82590",
-        "colors.red.300": "aabee69b92cf286773da9762484412bff9b4ba6e",
-        "colors.red.400": "bd388d81083687f45ff6d489826169ee1fc45dd2",
-        "colors.red.500": "9e88608048848248127d54da1b6e377044ef3d93",
-        "colors.red.600": "7c612cc7cdce3fde543204f4d599536db49cd305",
-        "colors.red.700": "7edf28083d5daac97e3306aa931c4942e25fc5af",
-        "colors.red.800": "cae6d360960b82f411900434209b7af2332db852",
-        "colors.red.900": "16b003193c954b427959556cfa160857945104ed",
-        "colors.orange.100": "df83a4e94f2cf2b14bd4cbd4efec727df895adce",
-        "colors.orange.200": "febb9192b4c451fb2c886d898a0fb665956f5ee2",
-        "colors.orange.300": "e433ac71d6ba9cfcb35e85f03da6ae96555d51f9",
-        "colors.orange.400": "afbd3a5a66cb06ebc89fca4cc41e0410dcb0187d",
-        "colors.orange.500": "17eacd74d32543a53d2e9248951844b09be3a4e5",
-        "colors.orange.600": "2ce76b54157e5f5a27a93ff8caab08239f36cd2d",
-        "colors.orange.700": "97042154a260b7558f26e7e3b5c8421d4149a6d1",
-        "colors.orange.800": "0eed21ee4ee25310a70a7d24cc7f41e79bcde19e",
-        "colors.orange.900": "bf43e1a610e6c0dbc75a2847dd97124489dfdc98",
-        "colors.green.100": "ca37c10047ad09ce9514b0296f046ea2977b726a",
-        "colors.green.200": "670f6cbcaf6e09a6979b4e9750468e600c1c5f39",
-        "colors.green.300": "49872e3c66aa6ca7ba3e9abff494604a8b6c2e9a",
-        "colors.green.400": "3c466d4a0382f48b0ee805fdd2adff00bc87c66e",
-        "colors.green.500": "a615504ab8c8dab3f0e386668e65e96aaf7cc2be",
-        "colors.green.600": "5561927026075eb0fb093c06a04819e03d7a1949",
-        "colors.green.700": "a07c72875e99e6bb8079d01a774fcc0ec8e3c4e1",
-        "colors.green.800": "5e3f02a0fcb5bb8cf0d69bc5549f28f1d79f0b93",
-        "colors.green.900": "1ec6cf223effb87bd944f25bdd3381f0347615f6",
-        "colors.grey.0": "7e031cdce27ee81a1a0c94adc7a943131e842be0",
-        "colors.grey.50": "eb59855424710aa7b6d143b67914f9797e9e3757",
-        "colors.grey.100": "cb985792e9a0410980dc1c65965ceabdfb3e2fdb",
-        "colors.grey.150": "d9544003500c4242963e4dc90b4da6ecd3ca26ec",
-        "colors.grey.200": "b51cec3d8f2685a2a88ccbd48bb671db88c2d71f",
-        "colors.grey.250": "da5d3b0d078b3a41453cb705ef9e92bfdeefb51e",
-        "colors.grey.300": "8bec0b5ee1574f7f102be01c9b8d839458ab3177",
-        "colors.grey.400": "0bd0cab8d31bb804c6f44d3549d5ed10e1032130",
-        "colors.grey.500": "9fee46b73c946aa73a122dae355bc6fa9f8704fb",
-        "colors.grey.600": "2b33769674302f0d56f4f437218c0b78703295be",
-        "colors.grey.700": "01b1d4a392310be2787434e1141c18ce20a06dfe",
-        "colors.grey.750": "74d40cfbf28b16d94d015a15f1fe5c81cd9a13b0",
-        "colors.grey.800": "743f0e0ba86006901ebaf9e27ba7591a431c012f",
-        "colors.grey.850": "a745e4ecf26bd8b4964cba2afa5d68d8816c58c4",
-        "colors.grey.900": "0d0cf730091427795906d45974663d9f9bc39d3a",
-        "colors.grey.950": "203567d53a4809c9dd17ffdbe140eb8561bc0a90",
-        "colors.grey.1000": "ad23a3695ca4f548d61d6d965a758e53e44d73da"
+        "colors.modifier.50": "4b921c93a517bf64ccf5aeeb511f425f62d9c81b",
+        "colors.modifier.100": "6152e4d825d17be672ac74125b618d45aa9bbd43",
+        "colors.modifier.150": "949fab6b0d9675d7684bdca5bbc781f93d70ae03",
+        "colors.modifier.200": "23e102735ec9c7e6fb9cba5c3aacdadf7c70c650",
+        "colors.modifier.250": "f8b6fc8d9923e7c83a8bba6a7ce244374605e1a4",
+        "colors.modifier.300": "2d4ce36ee771c812ec2c5580a2590497c3b0deea",
+        "colors.modifier.350": "45fd1a118ea9c748b94b8329728ac7011eba045c",
+        "colors.modifier.400": "46ffb6e4e8604b829056bdbc9192e086b1e91359",
+        "colors.modifier.450": "02d84b653753bc5fdc08b85d258919400f5156b5",
+        "colors.modifier.550": "592cb21647bf28da206836fcde7f9243fb6a9e33",
+        "colors.modifier.600": "63dc8ddb5f3236f4f029b3ad184a63d78f95c20d",
+        "colors.modifier.650": "0cf0a3ee1ea76f234f7880e441fd6d81f677fe07",
+        "colors.modifier.700": "203ddfa028179b76bb5e8d5f7544aad4a23a6235",
+        "colors.modifier.750": "c205e85f2b8008a0ba65358c5f7dae8d5dbae948",
+        "colors.modifier.800": "995529b04ccda2c108862a63981979155a127de3",
+        "colors.modifier.850": "ea999fdc86ac1c9a25524c4e589b9ff8591a4ad4",
+        "colors.modifier.900": "490aa3d0584d1cbd63b7d8350eb953704c93c541",
+        "colors.modifier.950": "3368cb0a1f4cc21e8c4ea62364f2a53977564a39",
+        "colors.blue.100": "7af7a79d14152445863f0f7fb6d766a59c96ed93",
+        "colors.blue.200": "be1e92659e6bf85f2a1dd17b60578b11f481beb9",
+        "colors.blue.300": "ee4e5c947b44108d9bbc7bf5401cdbf14b7b5f54",
+        "colors.blue.400": "9c2822ef0dac9f284eb26ca83845901b0f92d88a",
+        "colors.blue.500": "1bc1897cf2a3240b400462f146eebb2e15fac3b1",
+        "colors.blue.600": "f6920ec6e02e9a88deb35ecb1b4f7a2c01056362",
+        "colors.blue.700": "927b99f63d5420da2996072844843c3569de87b0",
+        "colors.blue.800": "5248c5e7794e89b60ed2bbe2a31f25ba5770d391",
+        "colors.blue.900": "8ebad2eccbab52b140fa0836a99a2c25178c29d5",
+        "colors.red.100": "80d4bc10445b5b50f61a6e9834b3b8dc97ce22b4",
+        "colors.red.200": "25323887e0dd5124153f79ce99c19b48a4d3026b",
+        "colors.red.300": "8e0a75f32c076d9ee5e574f31284d0ae738dc7ec",
+        "colors.red.400": "e1141a95d28bd5b1a7a72747c59d2e5ba56aebd8",
+        "colors.red.500": "caaf6cdff9f8d961c9a354b6cdc725e6568a0a44",
+        "colors.red.600": "85f3a74e4cadb44e9efc7446d4c5dfcce3462c99",
+        "colors.red.700": "ad99cf54ba09aa9726fb0776a441def64850a9b4",
+        "colors.red.800": "bec6e97f90be78f22ac047c994e9fcb68f04c0b5",
+        "colors.red.900": "a95b674ea5dc3d5dd2fb5906fc8bc1a5bdfbc64a",
+        "colors.orange.100": "f031d1cbf3c9c56bfe7a4cce6487e1e58c52bb7d",
+        "colors.orange.200": "81d53cea9f9946363d8231c0e9518ce0d865f61e",
+        "colors.orange.300": "485b9b7f8597131d6b87ed14e51505284b016467",
+        "colors.orange.400": "2aaf10e49630dabc89ba5c4f63427c1685e0e153",
+        "colors.orange.500": "1bfd801c2b305b21176bfe5bd8a2c3d7294eb60a",
+        "colors.orange.600": "3a240b6e9bc5a07704d3d116b83e25932288d53c",
+        "colors.orange.700": "3bd9952a910d8a0a2378592e962c86b4aa472fbf",
+        "colors.orange.800": "111712ab829568378b5f9ed5f9444d23b02a34f8",
+        "colors.orange.900": "aacc876637c855c3084c4343f872e7b093948066",
+        "colors.green.100": "c30c8223185e74f4ee23ad0afb8a414082757705",
+        "colors.green.200": "a46370015f8ea22901378f4185695dec954ea52e",
+        "colors.green.300": "54021018fdb3033e8f2a6512e21d25f9914f1a41",
+        "colors.green.400": "891edaaad02874c006b51fdead8d1524e2b08499",
+        "colors.green.500": "1f87a9f97eef3376976a2e880b3a7cf6b7a4c768",
+        "colors.green.600": "174531ff31011d3a3188cdefbea5b7398d9bb499",
+        "colors.green.700": "bed68629febc381cee1d3073bc4754e91660e926",
+        "colors.green.800": "c4fe12fa376d90461bd9b50d114d8781bdb018f1",
+        "colors.green.900": "faaf2cad20685ff3cd3b506b1e90dfa09a5fd97b",
+        "colors.grey.0": "d923535d321b2879e08ad2031066dfd3bb1f0aec",
+        "colors.grey.50": "c528b981f03b47192a1bf5d2b50a0b67d4e71cb8",
+        "colors.grey.100": "658cc5b4b6b14818f8376e61aa94a0adcb2a11d2",
+        "colors.grey.150": "7a58104cc6b66a3a1fa87c1c9a7f8403de5b0f59",
+        "colors.grey.200": "7c20adc51314fd8d5430d71ab5488de3df136f66",
+        "colors.grey.250": "e490ec11bc709c46365eb94b45c5b4f4df427bfc",
+        "colors.grey.300": "d2cb2aaf51decbb265ce6a5e6421e614f35ae6b3",
+        "colors.grey.400": "a5d4b652ba67ad957668e6c02c08c695cbfc5696",
+        "colors.grey.500": "a2516520571749332ceef32fbfdfed4cfde28df2",
+        "colors.grey.600": "de46edba686725fce5cb8526e44eef176019b306",
+        "colors.grey.700": "994e5770c227800e48c3d692d5e30693befcb407",
+        "colors.grey.750": "3b98dac17227ead88253902a136c06450aa14ae8",
+        "colors.grey.800": "dc72880da20e469548b283e1d2734cda3ed38b18",
+        "colors.grey.850": "0ce96dfe7749912a122757e55016e25708946f68",
+        "colors.grey.900": "635f52112171a087640397698f7df537b467a675",
+        "colors.grey.950": "a66861ebed7d1f8cb52d68417ae41641aa3a7a75",
+        "colors.grey.1000": "8aa11815e323c514463d9f9a6fc4bc25c316f751"
       },
       "group": "colors"
     }
