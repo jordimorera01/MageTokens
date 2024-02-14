@@ -83,7 +83,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "lighten",
-                "value": "{colors.modifier.100}",
+                "value": "{colors.modifier.200}",
                 "space": "lch"
               }
             }
