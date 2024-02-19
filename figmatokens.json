@@ -2474,7 +2474,7 @@
           "description": "12 columns mobile"
         },
         "12": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
+          "value": "331",
           "type": "sizing",
           "description": "12 columns mobile"
         }
