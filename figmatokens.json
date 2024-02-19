@@ -2118,86 +2118,93 @@
         }
       }
     },
-    "width": {
-      "viewport": {
-        "value": "1512",
-        "type": "sizing"
-      },
+    "viewport": {
+      "value": "1512",
+      "type": "sizing"
+    },
+    "grid": {
       "container": {
-        "value": "1360",
-        "type": "sizing"
-      },
-      "columns": {
-        "1": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 1) + {spacing.500} * (1 - 1)",
-          "type": "sizing",
-          "description": "Columns desktop"
+        "width": {
+          "value": "1360",
+          "type": "sizing"
         },
-        "2": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 2) + {spacing.500} * (2 - 1)",
-          "type": "sizing",
-          "description": "Columns desktop"
-        },
-        "3": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 3) + {spacing.500} * (3 - 1)",
-          "type": "sizing",
-          "description": "3 columns desktop"
-        },
-        "4": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 4) + {spacing.500} * (4 - 1)",
-          "type": "sizing",
-          "description": "4 columns desktop"
-        },
-        "5": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 5) + {spacing.500} * (5 - 1)",
-          "type": "sizing",
-          "description": "5 columns desktop"
-        },
-        "6": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 6) + {spacing.500} * (6 - 1)",
-          "type": "sizing",
-          "description": "6 columns desktop"
-        },
-        "7": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 7) + {spacing.500} * (7 - 1)",
-          "type": "sizing",
-          "description": "7 columns desktop"
-        },
-        "8": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 8) + {spacing.500} * (8 - 1)",
-          "type": "sizing",
-          "description": "8 columns desktop"
-        },
-        "9": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 9) + {spacing.500} * (9 - 1)",
-          "type": "sizing",
-          "description": "9 columns desktop"
-        },
-        "10": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 10) + {spacing.500} * (10 - 1)",
-          "type": "sizing",
-          "description": "10 columns desktop"
-        },
-        "11": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 11) + {spacing.500} * (11 - 1)",
-          "type": "sizing",
-          "description": "11 columns desktop"
-        },
-        "12": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns desktop"
+        "columns": {
+          "1": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 1) + {spacing.500} * (1 - 1)",
+            "type": "sizing",
+            "description": "Columns desktop"
+          },
+          "2": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 2) + {spacing.500} * (2 - 1)",
+            "type": "sizing",
+            "description": "Columns desktop"
+          },
+          "3": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 3) + {spacing.500} * (3 - 1)",
+            "type": "sizing",
+            "description": "3 columns desktop"
+          },
+          "4": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 4) + {spacing.500} * (4 - 1)",
+            "type": "sizing",
+            "description": "4 columns desktop"
+          },
+          "5": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 5) + {spacing.500} * (5 - 1)",
+            "type": "sizing",
+            "description": "5 columns desktop"
+          },
+          "6": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 6) + {spacing.500} * (6 - 1)",
+            "type": "sizing",
+            "description": "6 columns desktop"
+          },
+          "7": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 7) + {spacing.500} * (7 - 1)",
+            "type": "sizing",
+            "description": "7 columns desktop"
+          },
+          "8": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 8) + {spacing.500} * (8 - 1)",
+            "type": "sizing",
+            "description": "8 columns desktop"
+          },
+          "9": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 9) + {spacing.500} * (9 - 1)",
+            "type": "sizing",
+            "description": "9 columns desktop"
+          },
+          "10": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 10) + {spacing.500} * (10 - 1)",
+            "type": "sizing",
+            "description": "10 columns desktop"
+          },
+          "11": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 11) + {spacing.500} * (11 - 1)",
+            "type": "sizing",
+            "description": "11 columns desktop"
+          },
+          "12": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * ({columns}  - 1))) / {columns} ) * 12) + {spacing.500} * (12 - 1)",
+            "type": "sizing",
+            "description": "12 columns desktop"
+          }
         }
       }
     },
     "container": {
       "value": {
-        "width": "{width.container}",
+        "width": "{grid.container.width}",
         "paddingLeft": "{spacing.600}",
         "paddingRight": "{spacing.600}",
-        "minHeight": "100%"
+        "minHeight": "100%",
+        "itemSpacing": "{spacing.500}"
       },
       "type": "composition"
+    },
+    "columns": {
+      "value": "12",
+      "type": "number"
     }
   },
   "mobile": {
@@ -2408,86 +2415,92 @@
         }
       }
     },
-    "width": {
-      "viewport": {
-        "value": "395",
-        "type": "sizing"
-      },
+    "viewport": {
+      "value": "395",
+      "type": "sizing"
+    },
+    "grid": {
       "container": {
-        "value": "395",
-        "type": "sizing"
-      },
-      "columns": {
-        "1": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
+        "width": {
+          "value": "395",
+          "type": "sizing"
         },
-        "2": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "3": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "4": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "5": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "6": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "7": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "8": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "9": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "10": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "11": {
-          "value": "((( ({width.container} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
-          "type": "sizing",
-          "description": "12 columns mobile"
-        },
-        "12": {
-          "value": "331",
-          "type": "sizing",
-          "description": "12 columns mobile"
+        "columns": {
+          "1": {
+            "value": "((( ({grid.container.width} - ({spacing.600}*2) ) - ({spacing.500} * (12 - 1))) / 12) * 12) + {spacing.500} * (12 - 1)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "2": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "3": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "4": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "5": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "6": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "7": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "8": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "9": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "10": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "11": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          },
+          "12": {
+            "value": "{grid.container.width} - ({spacing.600}*2)",
+            "type": "sizing",
+            "description": "12 columns mobile"
+          }
         }
       }
     },
     "container": {
       "value": {
-        "width": "{width.container}",
+        "width": "{grid.container.width}",
         "paddingLeft": "{spacing.600}",
         "paddingRight": "{spacing.600}",
         "minHeight": "100%"
       },
       "type": "composition"
+    },
+    "columns": {
+      "value": "1",
+      "type": "number"
     }
   },
   "$themes": [
@@ -2653,25 +2666,27 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "fonts": "source",
-        "desktop": "enabled"
+        "desktop": "enabled",
+        "dimensions": "source"
       },
       "$figmaCollectionId": "VariableCollectionId:5601:9120",
       "$figmaModeId": "5601:2",
       "$figmaVariableReferences": {
-        "width.viewport": "f919f0d34cb18fd4f1b2fe1180287b5dfdb26c97",
-        "width.container": "dd1941564001dc130c5c2d6d2b86843042412ec2",
-        "width.columns.1": "75a4107ee59255ab522b2b08369ce94b7780fc2a",
-        "width.columns.2": "1ed6739c4034f912dfecb346bec655ed03bd05a2",
-        "width.columns.3": "06b9da36d0541527a2c6369eab58e1ab9ae17b1e",
-        "width.columns.4": "589c41b83e46d122eee3b115cc4243554a7735c6",
-        "width.columns.5": "29a111541cc182aa5df23c2666254caa673e5ada",
-        "width.columns.6": "d7426428e408448d9be1b4e89406f321adde7b6e",
-        "width.columns.7": "e014687c2377bf5a6aa6180007f44e296bd7b675",
-        "width.columns.8": "eb0136b742b6e584e2d22a2e7c5e3961ad71fffc",
-        "width.columns.9": "cb17a5e6fd84683b4f87ba57b58b265d54f30532",
-        "width.columns.10": "1729857ff0c43d024453e8a83647c97cd2304c12",
-        "width.columns.11": "a3999755aa803f2268e2883b358beb2eb4845baf",
-        "width.columns.12": "8450c9a869b997392786141170b8d3f8bca19d35"
+        "viewport": "f919f0d34cb18fd4f1b2fe1180287b5dfdb26c97",
+        "grid.container.width": "dd1941564001dc130c5c2d6d2b86843042412ec2",
+        "grid.container.columns.1": "75a4107ee59255ab522b2b08369ce94b7780fc2a",
+        "grid.container.columns.2": "1ed6739c4034f912dfecb346bec655ed03bd05a2",
+        "grid.container.columns.3": "06b9da36d0541527a2c6369eab58e1ab9ae17b1e",
+        "grid.container.columns.4": "589c41b83e46d122eee3b115cc4243554a7735c6",
+        "grid.container.columns.5": "29a111541cc182aa5df23c2666254caa673e5ada",
+        "grid.container.columns.6": "d7426428e408448d9be1b4e89406f321adde7b6e",
+        "grid.container.columns.7": "e014687c2377bf5a6aa6180007f44e296bd7b675",
+        "grid.container.columns.8": "eb0136b742b6e584e2d22a2e7c5e3961ad71fffc",
+        "grid.container.columns.9": "cb17a5e6fd84683b4f87ba57b58b265d54f30532",
+        "grid.container.columns.10": "1729857ff0c43d024453e8a83647c97cd2304c12",
+        "grid.container.columns.11": "a3999755aa803f2268e2883b358beb2eb4845baf",
+        "grid.container.columns.12": "8450c9a869b997392786141170b8d3f8bca19d35",
+        "columns": "39237f1ea9b6ec22f3f9d9478f717c819bf213f8"
       },
       "group": "platform"
     },
@@ -2680,12 +2695,30 @@
       "name": "mobile",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "fonts": "source"
+        "fonts": "source",
+        "dimensions": "source",
+        "mobile": "enabled"
       },
-      "group": "platform",
       "$figmaCollectionId": "VariableCollectionId:5601:9120",
       "$figmaModeId": "5601:3",
-      "$figmaVariableReferences": {}
+      "$figmaVariableReferences": {
+        "viewport": "f919f0d34cb18fd4f1b2fe1180287b5dfdb26c97",
+        "grid.container.width": "dd1941564001dc130c5c2d6d2b86843042412ec2",
+        "grid.container.columns.1": "75a4107ee59255ab522b2b08369ce94b7780fc2a",
+        "grid.container.columns.2": "1ed6739c4034f912dfecb346bec655ed03bd05a2",
+        "grid.container.columns.3": "06b9da36d0541527a2c6369eab58e1ab9ae17b1e",
+        "grid.container.columns.4": "589c41b83e46d122eee3b115cc4243554a7735c6",
+        "grid.container.columns.5": "29a111541cc182aa5df23c2666254caa673e5ada",
+        "grid.container.columns.6": "d7426428e408448d9be1b4e89406f321adde7b6e",
+        "grid.container.columns.7": "e014687c2377bf5a6aa6180007f44e296bd7b675",
+        "grid.container.columns.8": "eb0136b742b6e584e2d22a2e7c5e3961ad71fffc",
+        "grid.container.columns.9": "cb17a5e6fd84683b4f87ba57b58b265d54f30532",
+        "grid.container.columns.10": "1729857ff0c43d024453e8a83647c97cd2304c12",
+        "grid.container.columns.11": "a3999755aa803f2268e2883b358beb2eb4845baf",
+        "grid.container.columns.12": "8450c9a869b997392786141170b8d3f8bca19d35",
+        "columns": "39237f1ea9b6ec22f3f9d9478f717c819bf213f8"
+      },
+      "group": "platform"
     },
     {
       "id": "259f6a51b28e62f03a71f01d24ae3439a3ef82c4",
