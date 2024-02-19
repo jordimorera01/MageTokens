@@ -2636,6 +2636,9 @@
       "$figmaVariableReferences": {
         "width.viewport": "f919f0d34cb18fd4f1b2fe1180287b5dfdb26c97",
         "width.container": "dd1941564001dc130c5c2d6d2b86843042412ec2",
+        "width.columns.1": "75a4107ee59255ab522b2b08369ce94b7780fc2a",
+        "width.columns.2": "1ed6739c4034f912dfecb346bec655ed03bd05a2",
+        "width.columns.3": "06b9da36d0541527a2c6369eab58e1ab9ae17b1e",
         "width.columns.4": "589c41b83e46d122eee3b115cc4243554a7735c6",
         "width.columns.5": "29a111541cc182aa5df23c2666254caa673e5ada",
         "width.columns.6": "d7426428e408448d9be1b4e89406f321adde7b6e",
@@ -2644,10 +2647,7 @@
         "width.columns.9": "cb17a5e6fd84683b4f87ba57b58b265d54f30532",
         "width.columns.10": "1729857ff0c43d024453e8a83647c97cd2304c12",
         "width.columns.11": "a3999755aa803f2268e2883b358beb2eb4845baf",
-        "width.columns.12": "8450c9a869b997392786141170b8d3f8bca19d35",
-        "width.columns.2": "1ed6739c4034f912dfecb346bec655ed03bd05a2",
-        "width.columns.3": "06b9da36d0541527a2c6369eab58e1ab9ae17b1e",
-        "width.columns.1": "75a4107ee59255ab522b2b08369ce94b7780fc2a"
+        "width.columns.12": "8450c9a869b997392786141170b8d3f8bca19d35"
       },
       "group": "platform"
     },
