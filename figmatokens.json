@@ -2197,7 +2197,6 @@
         "width": "{grid.container.width}",
         "paddingLeft": "{spacing.600}",
         "paddingRight": "{spacing.600}",
-        "minHeight": "100%",
         "itemSpacing": "{spacing.500}"
       },
       "type": "composition"
@@ -2493,8 +2492,7 @@
       "value": {
         "width": "{grid.container.width}",
         "paddingLeft": "{spacing.600}",
-        "paddingRight": "{spacing.600}",
-        "minHeight": "100%"
+        "paddingRight": "{spacing.600}"
       },
       "type": "composition"
     },
