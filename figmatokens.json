@@ -740,6 +740,10 @@
       "heading": {
         "value": "Sora",
         "type": "fontFamilies"
+      },
+      "monospace": {
+        "value": "JetBrains Mono",
+        "type": "fontFamilies"
       }
     },
     "lineHeights": {
@@ -2130,7 +2134,7 @@
               "fontFamily": "{fontFamilies.heading}",
               "fontWeight": "{fontWeights.400}",
               "lineHeight": "{lineHeights.0}",
-              "fontSize": "{fontSizes.1500}"
+              "fontSize": "{fontSizes.1400}"
             },
             "type": "typography"
           },
@@ -2139,7 +2143,7 @@
               "fontFamily": "{fontFamilies.heading}",
               "fontWeight": "{fontWeights.700}",
               "lineHeight": "{lineHeights.0}",
-              "fontSize": "{fontSizes.1500}"
+              "fontSize": "{fontSizes.1400}"
             },
             "type": "typography"
           }
@@ -2232,6 +2236,31 @@
     "columns": {
       "value": "12",
       "type": "number"
+    },
+    "code": {
+      "code": {
+        "100": {
+          "value": {
+            "fontFamily": "{fontFamilies.monospace}",
+            "fontSize": "{fontSizes.100}"
+          },
+          "type": "typography"
+        },
+        "200": {
+          "value": {
+            "fontFamily": "{fontFamilies.monospace}",
+            "fontSize": "{fontSizes.200}"
+          },
+          "type": "typography"
+        },
+        "300": {
+          "value": {
+            "fontFamily": "{fontFamilies.monospace}",
+            "fontSize": "{fontSizes.400}"
+          },
+          "type": "typography"
+        }
+      }
     }
   },
   "mobile": {
@@ -2415,7 +2444,7 @@
               "fontFamily": "{fontFamilies.heading}",
               "fontWeight": "{fontWeights.400}",
               "lineHeight": "{lineHeights.400}",
-              "fontSize": "{fontSizes.1100}"
+              "fontSize": "{fontSizes.1000}"
             },
             "type": "typography"
           },
@@ -2424,7 +2453,7 @@
               "fontFamily": "{fontFamilies.heading}",
               "fontWeight": "{fontWeights.700}",
               "lineHeight": "{lineHeights.400}",
-              "fontSize": "{fontSizes.1100}"
+              "fontSize": "{fontSizes.1000}"
             },
             "type": "typography"
           }
@@ -2579,6 +2608,8 @@
         "Neutral.Foreground.Inverted.enabled": "3ee234edb67f19bdd8cb4c56062369c8d237173a",
         "Neutral.Foreground.Primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
         "Neutral.Foreground.Primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
+        "Neutral.Foreground.Static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
+        "Neutral.Foreground.Static.Inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
         "Neutral.Background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
         "Neutral.Background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
         "Neutral.Background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
@@ -2657,6 +2688,8 @@
         "Neutral.Foreground.Inverted.enabled": "3ee234edb67f19bdd8cb4c56062369c8d237173a",
         "Neutral.Foreground.Primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
         "Neutral.Foreground.Primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
+        "Neutral.Foreground.Static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
+        "Neutral.Foreground.Static.Inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
         "Neutral.Background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
         "Neutral.Background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
         "Neutral.Background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
