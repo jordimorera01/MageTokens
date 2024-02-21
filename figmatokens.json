@@ -1188,21 +1188,21 @@
             "description": ""
           }
         },
-        "OnBrand": {
+        "onbrand": {
           "enabled": {
             "value": "{colors.grey.900}",
             "type": "color",
             "description": ""
           }
         },
-        "Inverted": {
+        "inverted": {
           "enabled": {
             "value": "{colors.grey.0}",
             "type": "color",
             "description": ""
           }
         },
-        "Primary": {
+        "primary": {
           "hovered": {
             "value": "{colors.blue.500}",
             "type": "color",
@@ -1214,18 +1214,18 @@
             "description": ""
           }
         },
-        "Static": {
+        "static": {
           "1": {
             "value": "{colors.grey.900}",
             "type": "color"
           },
-          "Inverted": {
+          "inverted": {
             "value": "{colors.grey.0}",
             "type": "color"
           }
         }
       },
-      "Background": {
+      "background": {
         "1": {
           "enabled": {
             "value": "{colors.grey.0}",
@@ -1252,7 +1252,7 @@
             "description": ""
           }
         },
-        "Inverted": {
+        "inverted": {
           "1": {
             "enabled": {
               "value": "{colors.grey.900}",
@@ -1277,32 +1277,32 @@
             }
           }
         },
-        "Alpha": {
+        "alpha": {
           "enabled": {
             "value": "#ffffffe6",
             "type": "color",
             "description": ""
           }
         },
-        "Primary": {
+        "primary": {
           "Hovered": {
             "value": "{colors.blue.500}",
             "type": "color",
             "description": ""
           }
         },
-        "Static": {
+        "static": {
           "1": {
             "value": "{colors.grey.900}",
             "type": "color"
           },
-          "Inverted": {
+          "inverted": {
             "value": "{colors.grey.0}",
             "type": "color"
           }
         }
       },
-      "Stroke": {
+      "stroke": {
         "1": {
           "enabled": {
             "value": "{colors.grey.100}",
@@ -1331,11 +1331,10 @@
             "description": ""
           }
         },
-        "Primary": {
-          "Hovered": {
+        "primary": {
+          "hovered": {
             "value": "{colors.blue.500}",
-            "type": "color",
-            "description": ""
+            "type": "color"
           }
         }
       }
@@ -1682,7 +1681,7 @@
             "value": "{colors.grey.900}",
             "type": "color"
           },
-          "Inverted": {
+          "inverted": {
             "value": "{colors.grey.0}",
             "type": "color"
           }
@@ -1762,7 +1761,7 @@
             "value": "{colors.grey.900}",
             "type": "color"
           },
-          "Inverted": {
+          "inverted": {
             "value": "{colors.grey.0}",
             "type": "color"
           }
@@ -2647,7 +2646,6 @@
         "neutral.foreground.primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
         "neutral.foreground.primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
         "neutral.foreground.static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
-        "neutral.foreground.static.Inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
         "neutral.background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
         "neutral.background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
         "neutral.background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
@@ -2659,12 +2657,13 @@
         "neutral.background.alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
         "neutral.background.primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
         "neutral.background.static.1": "489bfffb6e191bcf781ea943df1ed2ed04183d54",
-        "neutral.background.static.Inverted": "f181e02788013da481be367a055d9822d6f08bc2",
         "neutral.stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
         "neutral.stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
         "neutral.stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
         "neutral.stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
-        "neutral.stroke.primary.Hovered": "657971f8657a4477008371a45964a41660a0228e"
+        "neutral.stroke.primary.hovered": "657971f8657a4477008371a45964a41660a0228e",
+        "neutral.background.static.inverted": "f181e02788013da481be367a055d9822d6f08bc2",
+        "neutral.foreground.static.inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735"
       },
       "$figmaCollectionId": "VariableCollectionId:5601:9057",
       "$figmaModeId": "5601:0",
@@ -2729,7 +2728,6 @@
         "neutral.foreground.primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
         "neutral.foreground.primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
         "neutral.foreground.static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
-        "neutral.foreground.static.Inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
         "neutral.background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
         "neutral.background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
         "neutral.background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
@@ -2741,12 +2739,13 @@
         "neutral.background.alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
         "neutral.background.primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
         "neutral.background.static.1": "489bfffb6e191bcf781ea943df1ed2ed04183d54",
-        "neutral.background.static.Inverted": "f181e02788013da481be367a055d9822d6f08bc2",
         "neutral.stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
         "neutral.stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
         "neutral.stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
         "neutral.stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
-        "neutral.stroke.primary.Hovered": "657971f8657a4477008371a45964a41660a0228e"
+        "neutral.stroke.primary.hovered": "657971f8657a4477008371a45964a41660a0228e",
+        "neutral.background.static.inverted": "f181e02788013da481be367a055d9822d6f08bc2",
+        "neutral.foreground.static.inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735"
       },
       "$figmaCollectionId": "VariableCollectionId:5601:9057",
       "$figmaModeId": "5601:1",
