@@ -1026,8 +1026,8 @@
     }
   },
   "light": {
-    "Primary": {
-      "Foreground": {
+    "primary": {
+      "foreground": {
         "1": {
           "enabled": {
             "value": "{colors.blue.900}",
@@ -1049,7 +1049,7 @@
           }
         }
       },
-      "Background": {
+      "background": {
         "1": {
           "enabled": {
             "value": "#ffffff00",
@@ -1101,7 +1101,7 @@
             "description": ""
           }
         },
-        "Subtle": {
+        "subtle": {
           "enabled": {
             "value": "{colors.blue.100}",
             "type": "color",
@@ -1114,7 +1114,7 @@
           }
         }
       },
-      "Stroke": {
+      "stroke": {
         "1": {
           "enabled": {
             "value": "{colors.blue.100}",
@@ -1140,8 +1140,8 @@
         }
       }
     },
-    "Neutral": {
-      "Foreground": {
+    "neutral": {
+      "foreground": {
         "1": {
           "enabled": {
             "value": "{colors.grey.900}",
@@ -1290,6 +1290,16 @@
             "type": "color",
             "description": ""
           }
+        },
+        "Static": {
+          "1": {
+            "value": "{colors.grey.900}",
+            "type": "color"
+          },
+          "Inverted": {
+            "value": "{colors.grey.0}",
+            "type": "color"
+          }
         }
       },
       "Stroke": {
@@ -1330,9 +1340,9 @@
         }
       }
     },
-    "Status": {
-      "Danger": {
-        "Foreground": {
+    "status": {
+      "danger": {
+        "foreground": {
           "1": {
             "enabled": {
               "value": "{colors.red.500}",
@@ -1341,7 +1351,7 @@
             }
           }
         },
-        "Background": {
+        "background": {
           "1": {
             "enabled": {
               "value": "#ffffff00",
@@ -1362,7 +1372,7 @@
             }
           }
         },
-        "Stroke": {
+        "stroke": {
           "1": {
             "enabled": {
               "value": "{colors.red.100}",
@@ -1379,8 +1389,8 @@
           }
         }
       },
-      "Warning": {
-        "Foreground": {
+      "warning": {
+        "foreground": {
           "1": {
             "enabled": {
               "value": "{colors.orange.500}",
@@ -1389,7 +1399,7 @@
             }
           }
         },
-        "Background": {
+        "background": {
           "1": {
             "enabled": {
               "value": "#ffffff00",
@@ -1410,7 +1420,7 @@
             }
           }
         },
-        "Stroke": {
+        "stroke": {
           "1": {
             "enabled": {
               "value": "{colors.orange.100}",
@@ -1427,8 +1437,8 @@
           }
         }
       },
-      "Success": {
-        "Foreground": {
+      "success": {
+        "foreground": {
           "1": {
             "enabled": {
               "value": "{colors.green.500}",
@@ -1437,7 +1447,7 @@
             }
           }
         },
-        "Background": {
+        "background": {
           "1": {
             "enabled": {
               "value": "#ffffff00",
@@ -1458,7 +1468,7 @@
             }
           }
         },
-        "Stroke": {
+        "stroke": {
           "1": {
             "enabled": {
               "value": "{colors.green.100}",
@@ -1478,8 +1488,8 @@
     }
   },
   "dark": {
-    "Primary": {
-      "Foreground": {
+    "primary": {
+      "foreground": {
         "1": {
           "enabled": {
             "value": "{colors.blue.900}",
@@ -1501,7 +1511,7 @@
           }
         }
       },
-      "Background": {
+      "background": {
         "1": {
           "enabled": {
             "value": "#00000000",
@@ -1553,7 +1563,7 @@
             "description": ""
           }
         },
-        "Subtle": {
+        "subtle": {
           "enabled": {
             "value": "{colors.blue.800}",
             "type": "color",
@@ -1566,7 +1576,7 @@
           }
         }
       },
-      "Stroke": {
+      "stroke": {
         "1": {
           "enabled": {
             "value": "{colors.blue.800}",
@@ -1593,8 +1603,8 @@
         }
       }
     },
-    "Neutral": {
-      "Foreground": {
+    "neutral": {
+      "foreground": {
         "1": {
           "enabled": {
             "value": "{colors.grey.0}",
@@ -1641,21 +1651,21 @@
             "description": ""
           }
         },
-        "OnBrand": {
+        "onbrand": {
           "enabled": {
             "value": "{colors.grey.900}",
             "type": "color",
             "description": ""
           }
         },
-        "Inverted": {
+        "inverted": {
           "enabled": {
             "value": "{colors.grey.900}",
             "type": "color",
             "description": ""
           }
         },
-        "Primary": {
+        "primary": {
           "hovered": {
             "value": "{colors.blue.500}",
             "type": "color",
@@ -1667,7 +1677,7 @@
             "description": ""
           }
         },
-        "Static": {
+        "static": {
           "1": {
             "value": "{colors.grey.900}",
             "type": "color"
@@ -1678,7 +1688,7 @@
           }
         }
       },
-      "Background": {
+      "background": {
         "1": {
           "enabled": {
             "value": "{colors.grey.950}",
@@ -1707,7 +1717,7 @@
             "description": ""
           }
         },
-        "Inverted": {
+        "inverted": {
           "1": {
             "enabled": {
               "value": "{colors.grey.0}",
@@ -1733,22 +1743,32 @@
             }
           }
         },
-        "Alpha": {
+        "alpha": {
           "enabled": {
             "value": "#000000e6",
             "type": "color",
             "description": ""
           }
         },
-        "Primary": {
+        "primary": {
           "Hovered": {
             "value": "{colors.blue.500}",
             "type": "color",
             "description": ""
           }
+        },
+        "static": {
+          "1": {
+            "value": "{colors.grey.900}",
+            "type": "color"
+          },
+          "Inverted": {
+            "value": "{colors.grey.0}",
+            "type": "color"
+          }
         }
       },
-      "Stroke": {
+      "stroke": {
         "1": {
           "enabled": {
             "value": "{colors.grey.800}",
@@ -1777,7 +1797,7 @@
             "description": ""
           }
         },
-        "Primary": {
+        "primary": {
           "Hovered": {
             "value": "{colors.blue.500}",
             "type": "color",
@@ -1786,9 +1806,9 @@
         }
       }
     },
-    "Status": {
-      "Danger": {
-        "Foreground": {
+    "status": {
+      "danger": {
+        "foreground": {
           "1": {
             "enabled": {
               "value": "{colors.red.300}",
@@ -1797,7 +1817,7 @@
             }
           }
         },
-        "Background": {
+        "background": {
           "1": {
             "enabled": {
               "value": "#00000000",
@@ -1818,7 +1838,7 @@
             }
           }
         },
-        "Stroke": {
+        "stroke": {
           "1": {
             "enabled": {
               "value": "{colors.red.800}",
@@ -1835,8 +1855,8 @@
           }
         }
       },
-      "Warning": {
-        "Foreground": {
+      "warning": {
+        "foreground": {
           "1": {
             "enabled": {
               "value": "{colors.orange.500}",
@@ -1845,7 +1865,7 @@
             }
           }
         },
-        "Background": {
+        "background": {
           "1": {
             "enabled": {
               "value": "#00000000",
@@ -1866,7 +1886,7 @@
             }
           }
         },
-        "Stroke": {
+        "stroke": {
           "1": {
             "enabled": {
               "value": "{colors.orange.800}",
@@ -1883,8 +1903,8 @@
           }
         }
       },
-      "Success": {
-        "Foreground": {
+      "success": {
+        "foreground": {
           "1": {
             "enabled": {
               "value": "{colors.green.500}",
@@ -1893,7 +1913,7 @@
             }
           }
         },
-        "Background": {
+        "background": {
           "1": {
             "enabled": {
               "value": "#00000000",
@@ -1914,7 +1934,7 @@
             }
           }
         },
-        "Stroke": {
+        "stroke": {
           "1": {
             "enabled": {
               "value": "{colors.green.800}",
@@ -2577,72 +2597,74 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "Primary.Foreground.1.enabled": "27e750fd24d4065510707642659e2b6a2df24b8e",
-        "Primary.Foreground.1.hovered": "30570776283664425b231ebe38875b7d1565b122",
-        "Primary.Foreground.2.enabled": "5a17064d3442984d3c7125049e63073b41f8e5a2",
-        "Primary.Foreground.2.hovered": "f3d59d6fc447a2b71d3e0de66e61028bf8c4eaae",
-        "Primary.Background.1.enabled": "85903ff135769b062b25b362f587269be46f4d55",
-        "Primary.Background.1.hovered": "96f769e7bb4d9c50178aa7ab77850d6883f32319",
-        "Primary.Background.1.selected": "d53095001d2b7f6d7a3ac44037833547305a8e1d",
-        "Primary.Background.2.enabled": "1641f3a5299ff5bd17e22b3d810f625975557c55",
-        "Primary.Background.2.hovered": "1b23a77cfc75b5424a76768cd55333734f2dc28a",
-        "Primary.Background.2.selected": "a70f457735af62be652a48e2e138e97ab96a925c",
-        "Primary.Background.3.enabled": "82a2c0b56459aafc3672243f5e2ae60c016c8374",
-        "Primary.Background.3.hovered": "59be664b2776f825b558876efc2e899c3662e03f",
-        "Primary.Background.3.selected": "26bee1e56405513d33a3e17b9d4c440bd8127531",
-        "Primary.Background.Subtle.enabled": "6392d250214e2a65b3d691f55c761923fd7983c0",
-        "Primary.Background.Subtle.hovered": "a7200519782b720fb7c5edccfe0d91a61e36e024",
-        "Primary.Stroke.1.enabled": "3b160d12965ec6a7961daa30e7896b8edec4cbc0",
-        "Primary.Stroke.2.enabled": "09cc7fd3f3d8c4200a711fb0e651117bd2b1e980",
-        "Primary.Stroke.2.hovered": "0db8faa86e1e1177a87043891d24816f17feafa0",
-        "Primary.Stroke.2.selected": "940a39909c0b85e49fab50a849029cab865bcdba",
-        "Neutral.Foreground.1.enabled": "4fd667882f38d07d72bd1d85957e005d967b28bb",
-        "Neutral.Foreground.1.hovered": "4792138eb4dc9402a4a0327dc35ab9dab9db54b1",
-        "Neutral.Foreground.1.selected": "dfc2c7aa33a2e121f4fc9141ce190471b5d28e30",
-        "Neutral.Foreground.2.enabled": "495666bf50cf97aecfcfa22b822be2ff4c0d92c8",
-        "Neutral.Foreground.2.hovered": "127f332c735fa9762b7f8d74108c0deeafbdc1e0",
-        "Neutral.Foreground.2.selected": "f39b2d2ac54a57eaabe66c1f152a8218560c03ee",
-        "Neutral.Foreground.3.enabled": "80e5916e16741cb874767ef5515b9196be2428b4",
-        "Neutral.Foreground.3.hovered": "a0fe76a072ea5b4c6c2bf814894876150d4d496a",
-        "Neutral.Foreground.OnBrand.enabled": "588a20e2eb1d23a07ab8f52b2bdf285206f022cc",
-        "Neutral.Foreground.Inverted.enabled": "3ee234edb67f19bdd8cb4c56062369c8d237173a",
-        "Neutral.Foreground.Primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
-        "Neutral.Foreground.Primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
-        "Neutral.Foreground.Static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
-        "Neutral.Foreground.Static.Inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
-        "Neutral.Background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
-        "Neutral.Background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
-        "Neutral.Background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
-        "Neutral.Background.4.enabled": "5101ff87ae51863bb234f44aaa0924ff3429231c",
-        "Neutral.Background.Inverted.1.enabled": "6643dc6b385a38274d9124963ed42208e505df35",
-        "Neutral.Background.Inverted.1.hovered": "f0a5d2f8c55d4d111faec6b5318d50582d0e69d7",
-        "Neutral.Background.Inverted.2.enabled": "b1eae2b084114eb3e17bac789f3ced320b74b248",
-        "Neutral.Background.Inverted.2.hovered": "3d707ea126c29ab3019b221f2122f3d6760625c7",
-        "Neutral.Background.Alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
-        "Neutral.Background.Primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
-        "Neutral.Stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
-        "Neutral.Stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
-        "Neutral.Stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
-        "Neutral.Stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
-        "Neutral.Stroke.Primary.Hovered": "657971f8657a4477008371a45964a41660a0228e",
-        "Status.Danger.Foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
-        "Status.Danger.Background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
-        "Status.Danger.Background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
-        "Status.Danger.Background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
-        "Status.Danger.Stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
-        "Status.Danger.Stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
-        "Status.Warning.Foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
-        "Status.Warning.Background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
-        "Status.Warning.Background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
-        "Status.Warning.Background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
-        "Status.Warning.Stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
-        "Status.Warning.Stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
-        "Status.Success.Foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
-        "Status.Success.Background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
-        "Status.Success.Background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
-        "Status.Success.Background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
-        "Status.Success.Stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
-        "Status.Success.Stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e"
+        "status.danger.foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
+        "status.danger.background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
+        "status.danger.background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
+        "status.danger.background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
+        "status.danger.stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
+        "status.danger.stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
+        "status.warning.foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
+        "status.warning.background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
+        "status.warning.background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
+        "status.warning.background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
+        "status.warning.stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
+        "status.warning.stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
+        "status.success.foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
+        "status.success.background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
+        "status.success.background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
+        "status.success.background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
+        "status.success.stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
+        "status.success.stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e",
+        "primary.foreground.1.enabled": "27e750fd24d4065510707642659e2b6a2df24b8e",
+        "primary.foreground.1.hovered": "30570776283664425b231ebe38875b7d1565b122",
+        "primary.foreground.2.enabled": "5a17064d3442984d3c7125049e63073b41f8e5a2",
+        "primary.foreground.2.hovered": "f3d59d6fc447a2b71d3e0de66e61028bf8c4eaae",
+        "primary.background.1.enabled": "85903ff135769b062b25b362f587269be46f4d55",
+        "primary.background.1.hovered": "96f769e7bb4d9c50178aa7ab77850d6883f32319",
+        "primary.background.1.selected": "d53095001d2b7f6d7a3ac44037833547305a8e1d",
+        "primary.background.2.enabled": "1641f3a5299ff5bd17e22b3d810f625975557c55",
+        "primary.background.2.hovered": "1b23a77cfc75b5424a76768cd55333734f2dc28a",
+        "primary.background.2.selected": "a70f457735af62be652a48e2e138e97ab96a925c",
+        "primary.background.3.enabled": "82a2c0b56459aafc3672243f5e2ae60c016c8374",
+        "primary.background.3.hovered": "59be664b2776f825b558876efc2e899c3662e03f",
+        "primary.background.3.selected": "26bee1e56405513d33a3e17b9d4c440bd8127531",
+        "primary.background.subtle.enabled": "6392d250214e2a65b3d691f55c761923fd7983c0",
+        "primary.background.subtle.hovered": "a7200519782b720fb7c5edccfe0d91a61e36e024",
+        "primary.stroke.1.enabled": "3b160d12965ec6a7961daa30e7896b8edec4cbc0",
+        "primary.stroke.2.enabled": "09cc7fd3f3d8c4200a711fb0e651117bd2b1e980",
+        "primary.stroke.2.hovered": "0db8faa86e1e1177a87043891d24816f17feafa0",
+        "primary.stroke.2.selected": "940a39909c0b85e49fab50a849029cab865bcdba",
+        "neutral.foreground.1.enabled": "4fd667882f38d07d72bd1d85957e005d967b28bb",
+        "neutral.foreground.1.hovered": "4792138eb4dc9402a4a0327dc35ab9dab9db54b1",
+        "neutral.foreground.1.selected": "dfc2c7aa33a2e121f4fc9141ce190471b5d28e30",
+        "neutral.foreground.2.enabled": "495666bf50cf97aecfcfa22b822be2ff4c0d92c8",
+        "neutral.foreground.2.hovered": "127f332c735fa9762b7f8d74108c0deeafbdc1e0",
+        "neutral.foreground.2.selected": "f39b2d2ac54a57eaabe66c1f152a8218560c03ee",
+        "neutral.foreground.3.enabled": "80e5916e16741cb874767ef5515b9196be2428b4",
+        "neutral.foreground.3.hovered": "a0fe76a072ea5b4c6c2bf814894876150d4d496a",
+        "neutral.foreground.onbrand.enabled": "588a20e2eb1d23a07ab8f52b2bdf285206f022cc",
+        "neutral.foreground.inverted.enabled": "3ee234edb67f19bdd8cb4c56062369c8d237173a",
+        "neutral.foreground.primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
+        "neutral.foreground.primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
+        "neutral.foreground.static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
+        "neutral.foreground.static.Inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
+        "neutral.background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
+        "neutral.background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
+        "neutral.background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
+        "neutral.background.4.enabled": "5101ff87ae51863bb234f44aaa0924ff3429231c",
+        "neutral.background.inverted.1.enabled": "6643dc6b385a38274d9124963ed42208e505df35",
+        "neutral.background.inverted.1.hovered": "f0a5d2f8c55d4d111faec6b5318d50582d0e69d7",
+        "neutral.background.inverted.2.enabled": "b1eae2b084114eb3e17bac789f3ced320b74b248",
+        "neutral.background.inverted.2.hovered": "3d707ea126c29ab3019b221f2122f3d6760625c7",
+        "neutral.background.alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
+        "neutral.background.primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
+        "neutral.background.static.1": "489bfffb6e191bcf781ea943df1ed2ed04183d54",
+        "neutral.background.static.Inverted": "f181e02788013da481be367a055d9822d6f08bc2",
+        "neutral.stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
+        "neutral.stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
+        "neutral.stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
+        "neutral.stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
+        "neutral.stroke.primary.Hovered": "657971f8657a4477008371a45964a41660a0228e"
       },
       "$figmaCollectionId": "VariableCollectionId:5601:9057",
       "$figmaModeId": "5601:0",
@@ -2657,72 +2679,74 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "Primary.Foreground.1.enabled": "27e750fd24d4065510707642659e2b6a2df24b8e",
-        "Primary.Foreground.1.hovered": "30570776283664425b231ebe38875b7d1565b122",
-        "Primary.Foreground.2.enabled": "5a17064d3442984d3c7125049e63073b41f8e5a2",
-        "Primary.Foreground.2.hovered": "f3d59d6fc447a2b71d3e0de66e61028bf8c4eaae",
-        "Primary.Background.1.enabled": "85903ff135769b062b25b362f587269be46f4d55",
-        "Primary.Background.1.hovered": "96f769e7bb4d9c50178aa7ab77850d6883f32319",
-        "Primary.Background.1.selected": "d53095001d2b7f6d7a3ac44037833547305a8e1d",
-        "Primary.Background.2.enabled": "1641f3a5299ff5bd17e22b3d810f625975557c55",
-        "Primary.Background.2.hovered": "1b23a77cfc75b5424a76768cd55333734f2dc28a",
-        "Primary.Background.2.selected": "a70f457735af62be652a48e2e138e97ab96a925c",
-        "Primary.Background.3.enabled": "82a2c0b56459aafc3672243f5e2ae60c016c8374",
-        "Primary.Background.3.hovered": "59be664b2776f825b558876efc2e899c3662e03f",
-        "Primary.Background.3.selected": "26bee1e56405513d33a3e17b9d4c440bd8127531",
-        "Primary.Background.Subtle.enabled": "6392d250214e2a65b3d691f55c761923fd7983c0",
-        "Primary.Background.Subtle.hovered": "a7200519782b720fb7c5edccfe0d91a61e36e024",
-        "Primary.Stroke.1.enabled": "3b160d12965ec6a7961daa30e7896b8edec4cbc0",
-        "Primary.Stroke.2.enabled": "09cc7fd3f3d8c4200a711fb0e651117bd2b1e980",
-        "Primary.Stroke.2.hovered": "0db8faa86e1e1177a87043891d24816f17feafa0",
-        "Primary.Stroke.2.selected": "940a39909c0b85e49fab50a849029cab865bcdba",
-        "Neutral.Foreground.1.enabled": "4fd667882f38d07d72bd1d85957e005d967b28bb",
-        "Neutral.Foreground.1.hovered": "4792138eb4dc9402a4a0327dc35ab9dab9db54b1",
-        "Neutral.Foreground.1.selected": "dfc2c7aa33a2e121f4fc9141ce190471b5d28e30",
-        "Neutral.Foreground.2.enabled": "495666bf50cf97aecfcfa22b822be2ff4c0d92c8",
-        "Neutral.Foreground.2.hovered": "127f332c735fa9762b7f8d74108c0deeafbdc1e0",
-        "Neutral.Foreground.2.selected": "f39b2d2ac54a57eaabe66c1f152a8218560c03ee",
-        "Neutral.Foreground.3.enabled": "80e5916e16741cb874767ef5515b9196be2428b4",
-        "Neutral.Foreground.3.hovered": "a0fe76a072ea5b4c6c2bf814894876150d4d496a",
-        "Neutral.Foreground.OnBrand.enabled": "588a20e2eb1d23a07ab8f52b2bdf285206f022cc",
-        "Neutral.Foreground.Inverted.enabled": "3ee234edb67f19bdd8cb4c56062369c8d237173a",
-        "Neutral.Foreground.Primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
-        "Neutral.Foreground.Primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
-        "Neutral.Foreground.Static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
-        "Neutral.Foreground.Static.Inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
-        "Neutral.Background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
-        "Neutral.Background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
-        "Neutral.Background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
-        "Neutral.Background.4.enabled": "5101ff87ae51863bb234f44aaa0924ff3429231c",
-        "Neutral.Background.Inverted.1.enabled": "6643dc6b385a38274d9124963ed42208e505df35",
-        "Neutral.Background.Inverted.1.hovered": "f0a5d2f8c55d4d111faec6b5318d50582d0e69d7",
-        "Neutral.Background.Inverted.2.enabled": "b1eae2b084114eb3e17bac789f3ced320b74b248",
-        "Neutral.Background.Inverted.2.hovered": "3d707ea126c29ab3019b221f2122f3d6760625c7",
-        "Neutral.Background.Alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
-        "Neutral.Background.Primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
-        "Neutral.Stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
-        "Neutral.Stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
-        "Neutral.Stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
-        "Neutral.Stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
-        "Neutral.Stroke.Primary.Hovered": "657971f8657a4477008371a45964a41660a0228e",
-        "Status.Danger.Foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
-        "Status.Danger.Background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
-        "Status.Danger.Background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
-        "Status.Danger.Background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
-        "Status.Danger.Stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
-        "Status.Danger.Stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
-        "Status.Warning.Foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
-        "Status.Warning.Background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
-        "Status.Warning.Background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
-        "Status.Warning.Background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
-        "Status.Warning.Stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
-        "Status.Warning.Stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
-        "Status.Success.Foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
-        "Status.Success.Background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
-        "Status.Success.Background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
-        "Status.Success.Background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
-        "Status.Success.Stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
-        "Status.Success.Stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e"
+        "status.danger.foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
+        "status.danger.background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
+        "status.danger.background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
+        "status.danger.background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
+        "status.danger.stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
+        "status.danger.stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
+        "status.warning.foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
+        "status.warning.background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
+        "status.warning.background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
+        "status.warning.background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
+        "status.warning.stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
+        "status.warning.stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
+        "status.success.foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
+        "status.success.background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
+        "status.success.background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
+        "status.success.background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
+        "status.success.stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
+        "status.success.stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e",
+        "primary.foreground.1.enabled": "27e750fd24d4065510707642659e2b6a2df24b8e",
+        "primary.foreground.1.hovered": "30570776283664425b231ebe38875b7d1565b122",
+        "primary.foreground.2.enabled": "5a17064d3442984d3c7125049e63073b41f8e5a2",
+        "primary.foreground.2.hovered": "f3d59d6fc447a2b71d3e0de66e61028bf8c4eaae",
+        "primary.background.1.enabled": "85903ff135769b062b25b362f587269be46f4d55",
+        "primary.background.1.hovered": "96f769e7bb4d9c50178aa7ab77850d6883f32319",
+        "primary.background.1.selected": "d53095001d2b7f6d7a3ac44037833547305a8e1d",
+        "primary.background.2.enabled": "1641f3a5299ff5bd17e22b3d810f625975557c55",
+        "primary.background.2.hovered": "1b23a77cfc75b5424a76768cd55333734f2dc28a",
+        "primary.background.2.selected": "a70f457735af62be652a48e2e138e97ab96a925c",
+        "primary.background.3.enabled": "82a2c0b56459aafc3672243f5e2ae60c016c8374",
+        "primary.background.3.hovered": "59be664b2776f825b558876efc2e899c3662e03f",
+        "primary.background.3.selected": "26bee1e56405513d33a3e17b9d4c440bd8127531",
+        "primary.background.subtle.enabled": "6392d250214e2a65b3d691f55c761923fd7983c0",
+        "primary.background.subtle.hovered": "a7200519782b720fb7c5edccfe0d91a61e36e024",
+        "primary.stroke.1.enabled": "3b160d12965ec6a7961daa30e7896b8edec4cbc0",
+        "primary.stroke.2.enabled": "09cc7fd3f3d8c4200a711fb0e651117bd2b1e980",
+        "primary.stroke.2.hovered": "0db8faa86e1e1177a87043891d24816f17feafa0",
+        "primary.stroke.2.selected": "940a39909c0b85e49fab50a849029cab865bcdba",
+        "neutral.foreground.1.enabled": "4fd667882f38d07d72bd1d85957e005d967b28bb",
+        "neutral.foreground.1.hovered": "4792138eb4dc9402a4a0327dc35ab9dab9db54b1",
+        "neutral.foreground.1.selected": "dfc2c7aa33a2e121f4fc9141ce190471b5d28e30",
+        "neutral.foreground.2.enabled": "495666bf50cf97aecfcfa22b822be2ff4c0d92c8",
+        "neutral.foreground.2.hovered": "127f332c735fa9762b7f8d74108c0deeafbdc1e0",
+        "neutral.foreground.2.selected": "f39b2d2ac54a57eaabe66c1f152a8218560c03ee",
+        "neutral.foreground.3.enabled": "80e5916e16741cb874767ef5515b9196be2428b4",
+        "neutral.foreground.3.hovered": "a0fe76a072ea5b4c6c2bf814894876150d4d496a",
+        "neutral.foreground.onbrand.enabled": "588a20e2eb1d23a07ab8f52b2bdf285206f022cc",
+        "neutral.foreground.inverted.enabled": "3ee234edb67f19bdd8cb4c56062369c8d237173a",
+        "neutral.foreground.primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
+        "neutral.foreground.primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
+        "neutral.foreground.static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
+        "neutral.foreground.static.Inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
+        "neutral.background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
+        "neutral.background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
+        "neutral.background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
+        "neutral.background.4.enabled": "5101ff87ae51863bb234f44aaa0924ff3429231c",
+        "neutral.background.inverted.1.enabled": "6643dc6b385a38274d9124963ed42208e505df35",
+        "neutral.background.inverted.1.hovered": "f0a5d2f8c55d4d111faec6b5318d50582d0e69d7",
+        "neutral.background.inverted.2.enabled": "b1eae2b084114eb3e17bac789f3ced320b74b248",
+        "neutral.background.inverted.2.hovered": "3d707ea126c29ab3019b221f2122f3d6760625c7",
+        "neutral.background.alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
+        "neutral.background.primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
+        "neutral.background.static.1": "489bfffb6e191bcf781ea943df1ed2ed04183d54",
+        "neutral.background.static.Inverted": "f181e02788013da481be367a055d9822d6f08bc2",
+        "neutral.stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
+        "neutral.stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
+        "neutral.stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
+        "neutral.stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
+        "neutral.stroke.primary.Hovered": "657971f8657a4477008371a45964a41660a0228e"
       },
       "$figmaCollectionId": "VariableCollectionId:5601:9057",
       "$figmaModeId": "5601:1",
