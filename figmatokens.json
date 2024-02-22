@@ -934,47 +934,47 @@
   "dimensions": {
     "spacing": {
       "0": {
-        "value": "0",
+        "value": "{size.0}",
         "type": "spacing"
       },
       "100": {
-        "value": "4",
+        "value": "{size.200}",
         "type": "spacing"
       },
       "200": {
-        "value": "8",
+        "value": "{size.400}",
         "type": "spacing"
       },
       "300": {
-        "value": "12",
+        "value": "{size.600}",
         "type": "spacing"
       },
       "400": {
-        "value": "16",
+        "value": "{size.700}",
         "type": "spacing"
       },
       "500": {
-        "value": "24",
+        "value": "{size.900}",
         "type": "spacing"
       },
       "600": {
-        "value": "32",
+        "value": "{size.1100}",
         "type": "spacing"
       },
       "700": {
-        "value": "48",
+        "value": "{size.1400}",
         "type": "spacing"
       },
       "800": {
-        "value": "64",
+        "value": "{size.1600}",
         "type": "spacing"
       },
       "900": {
-        "value": "80",
+        "value": "{size.1800}",
         "type": "spacing"
       },
       "1000": {
-        "value": "96",
+        "value": "{size.2000}",
         "type": "spacing"
       }
     },
@@ -1022,6 +1022,126 @@
       "1000": {
         "value": "360",
         "type": "borderRadius"
+      }
+    },
+    "strokeWidth": {
+      "50": {
+        "value": "0.5",
+        "type": "borderWidth"
+      },
+      "100": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "150": {
+        "value": "1.5",
+        "type": "borderWidth"
+      },
+      "200": {
+        "value": "2",
+        "type": "borderWidth"
+      },
+      "300": {
+        "value": "3",
+        "type": "borderWidth"
+      },
+      "400": {
+        "value": "4",
+        "type": "borderWidth"
+      },
+      "500": {
+        "value": "5",
+        "type": "borderWidth"
+      },
+      "600": {
+        "value": "6",
+        "type": "borderWidth"
+      }
+    },
+    "size": {
+      "0": {
+        "value": "0",
+        "type": "sizing"
+      },
+      "100": {
+        "value": "2",
+        "type": "sizing"
+      },
+      "200": {
+        "value": "4",
+        "type": "sizing"
+      },
+      "300": {
+        "value": "6",
+        "type": "sizing"
+      },
+      "400": {
+        "value": "8",
+        "type": "sizing"
+      },
+      "500": {
+        "value": "10",
+        "type": "sizing"
+      },
+      "600": {
+        "value": "12",
+        "type": "sizing"
+      },
+      "700": {
+        "value": "16",
+        "type": "sizing"
+      },
+      "800": {
+        "value": "20",
+        "type": "sizing"
+      },
+      "900": {
+        "value": "24",
+        "type": "sizing"
+      },
+      "1000": {
+        "value": "28",
+        "type": "sizing"
+      },
+      "1100": {
+        "value": "32",
+        "type": "sizing"
+      },
+      "1200": {
+        "value": "36",
+        "type": "sizing"
+      },
+      "1300": {
+        "value": "40",
+        "type": "sizing"
+      },
+      "1400": {
+        "value": "48",
+        "type": "sizing"
+      },
+      "1500": {
+        "value": "56",
+        "type": "sizing"
+      },
+      "1600": {
+        "value": "64",
+        "type": "sizing"
+      },
+      "1700": {
+        "value": "72",
+        "type": "sizing"
+      },
+      "1800": {
+        "value": "80",
+        "type": "sizing"
+      },
+      "1900": {
+        "value": "88",
+        "type": "sizing"
+      },
+      "2000": {
+        "value": "96",
+        "type": "sizing"
       }
     }
   },
@@ -2596,24 +2716,6 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "status.danger.foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
-        "status.danger.background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
-        "status.danger.background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
-        "status.danger.background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
-        "status.danger.stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
-        "status.danger.stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
-        "status.warning.foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
-        "status.warning.background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
-        "status.warning.background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
-        "status.warning.background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
-        "status.warning.stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
-        "status.warning.stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
-        "status.success.foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
-        "status.success.background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
-        "status.success.background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
-        "status.success.background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
-        "status.success.stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
-        "status.success.stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e",
         "primary.foreground.1.enabled": "27e750fd24d4065510707642659e2b6a2df24b8e",
         "primary.foreground.1.hovered": "30570776283664425b231ebe38875b7d1565b122",
         "primary.foreground.2.enabled": "5a17064d3442984d3c7125049e63073b41f8e5a2",
@@ -2646,6 +2748,7 @@
         "neutral.foreground.primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
         "neutral.foreground.primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
         "neutral.foreground.static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
+        "neutral.foreground.static.inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
         "neutral.background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
         "neutral.background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
         "neutral.background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
@@ -2657,13 +2760,30 @@
         "neutral.background.alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
         "neutral.background.primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
         "neutral.background.static.1": "489bfffb6e191bcf781ea943df1ed2ed04183d54",
+        "neutral.background.static.inverted": "f181e02788013da481be367a055d9822d6f08bc2",
         "neutral.stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
         "neutral.stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
         "neutral.stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
         "neutral.stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
         "neutral.stroke.primary.hovered": "657971f8657a4477008371a45964a41660a0228e",
-        "neutral.background.static.inverted": "f181e02788013da481be367a055d9822d6f08bc2",
-        "neutral.foreground.static.inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735"
+        "status.danger.foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
+        "status.danger.background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
+        "status.danger.background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
+        "status.danger.background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
+        "status.danger.stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
+        "status.danger.stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
+        "status.warning.foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
+        "status.warning.background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
+        "status.warning.background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
+        "status.warning.background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
+        "status.warning.stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
+        "status.warning.stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
+        "status.success.foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
+        "status.success.background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
+        "status.success.background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
+        "status.success.background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
+        "status.success.stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
+        "status.success.stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e"
       },
       "$figmaCollectionId": "VariableCollectionId:5601:9057",
       "$figmaModeId": "5601:0",
@@ -2678,24 +2798,6 @@
       },
       "$figmaStyleReferences": {},
       "$figmaVariableReferences": {
-        "status.danger.foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
-        "status.danger.background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
-        "status.danger.background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
-        "status.danger.background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
-        "status.danger.stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
-        "status.danger.stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
-        "status.warning.foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
-        "status.warning.background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
-        "status.warning.background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
-        "status.warning.background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
-        "status.warning.stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
-        "status.warning.stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
-        "status.success.foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
-        "status.success.background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
-        "status.success.background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
-        "status.success.background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
-        "status.success.stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
-        "status.success.stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e",
         "primary.foreground.1.enabled": "27e750fd24d4065510707642659e2b6a2df24b8e",
         "primary.foreground.1.hovered": "30570776283664425b231ebe38875b7d1565b122",
         "primary.foreground.2.enabled": "5a17064d3442984d3c7125049e63073b41f8e5a2",
@@ -2728,6 +2830,7 @@
         "neutral.foreground.primary.hovered": "5d963bd7fd34641b59034f778fb1cf2f4331c569",
         "neutral.foreground.primary.selected": "8b370461d9ea1fb8501cc7239c3097e8daae7668",
         "neutral.foreground.static.1": "b672f3ececc6878d205ca8f379e71ae18b5a5d4e",
+        "neutral.foreground.static.inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735",
         "neutral.background.1.enabled": "4493274467093c17632ca31d098ae832501aa6f1",
         "neutral.background.2.enabled": "cf74e77c560543be550c893c01479b07cabf0e60",
         "neutral.background.3.enabled": "e4e7c818af347b2a62563c3a3a1cbe00b67b652b",
@@ -2739,13 +2842,30 @@
         "neutral.background.alpha.enabled": "096635f4cb9d64aa446ff86fc579e4fd9cf39958",
         "neutral.background.primary.Hovered": "0ae4ddd1767df9578c10cde617eacba25fed1e6c",
         "neutral.background.static.1": "489bfffb6e191bcf781ea943df1ed2ed04183d54",
+        "neutral.background.static.inverted": "f181e02788013da481be367a055d9822d6f08bc2",
         "neutral.stroke.1.enabled": "fa6cc12a7fdc2a6f9ace0b7a20c490a66d8d434a",
         "neutral.stroke.2.enabled": "eec1f25376d1521611dd57e8ad9ffcb9cc30bc76",
         "neutral.stroke.3.enabled": "2546ef7ea3df90984fb69acb931509cb7fe7f996",
         "neutral.stroke.4.enabled": "41225cc116b1380a4e660ac6a4f035669f2af476",
-        "neutral.stroke.primary.hovered": "657971f8657a4477008371a45964a41660a0228e",
-        "neutral.background.static.inverted": "f181e02788013da481be367a055d9822d6f08bc2",
-        "neutral.foreground.static.inverted": "10ab70b56774790b1968cbac5a8802bc7b8a8735"
+        "neutral.stroke.primary.Hovered": "bcdad1a27beac2cdd4fbb1cb0270c22ada35689c",
+        "status.danger.foreground.1.enabled": "3e51f99af328238cf234a7db1c1526e51cc48a0b",
+        "status.danger.background.1.enabled": "d7dcd7076f201cd9bf4af93a235e485d24c47099",
+        "status.danger.background.1.hovered": "f770d627d7f46f177386efa315654b0a84b37446",
+        "status.danger.background.2.enabled": "7c637fe4b12f2e43d3918fca44b40aec79d49268",
+        "status.danger.stroke.1.enabled": "b39fc36ed5c45f1ab14af7bec740764fcdb76352",
+        "status.danger.stroke.2.enabled": "967f1110bbfc13b980f78af87fe4b89f13f5cf38",
+        "status.warning.foreground.1.enabled": "8b510619e0af5b0781489452831609279229c44f",
+        "status.warning.background.1.enabled": "5ed1da583269d5f1fabbe0d9e7fab78a446742f2",
+        "status.warning.background.1.hovered": "eaaa6624669feb1e28459994fd15a2378536406e",
+        "status.warning.background.2.enabled": "ab6a1b8c4a0c036289e07f1e166f31910da0343e",
+        "status.warning.stroke.1.enabled": "b4d4b937c9b5f8d045a8e9ac8a2f943810abc94f",
+        "status.warning.stroke.2.enabled": "755d7b8ed35200c644face18dfc0553808b46ce0",
+        "status.success.foreground.1.enabled": "1f766621773e5b7333267ea19d83a5f7b4593145",
+        "status.success.background.1.enabled": "5bc3d2b1c3ebf2e39f94536539576d6307c1c8ff",
+        "status.success.background.1.hovered": "d610470d2fbeea4fff1eae919f906baa3ebba729",
+        "status.success.background.2.enabled": "7815ed48ba0094a8018690133b260604866a6b15",
+        "status.success.stroke.1.enabled": "ba72abeaefb449f5645d670009c73a9ba6013326",
+        "status.success.stroke.2.enabled": "b2a9ee8d342c763b30ec5afa7e070b3fba9eec7e"
       },
       "$figmaCollectionId": "VariableCollectionId:5601:9057",
       "$figmaModeId": "5601:1",
@@ -2843,7 +2963,36 @@
         "borderRadius.700": "942feb628bc95d3fd632b731c75be4dc9e205148",
         "borderRadius.800": "2e9eb7fbf1a5acbc0f7846b3ccc7850a6ca9f87a",
         "borderRadius.900": "9a4c18fcf13f7018e7c1978841b1454272484f76",
-        "borderRadius.1000": "6c19d22bf19e8da3a4c682031b49fa3cfff9398a"
+        "borderRadius.1000": "6c19d22bf19e8da3a4c682031b49fa3cfff9398a",
+        "strokeWidth.50": "a5d012e0a7b52674e7e0f355b0b43232f08eb511",
+        "strokeWidth.100": "6345df0bcdfa06ea3d085ec4e9cda9c715f05f25",
+        "strokeWidth.150": "e4edb6ca1da0ae666b1cd7fffd67c245e778a61b",
+        "strokeWidth.200": "3ab1819d4dbd7e624e9ce4f46c1311354453e5dc",
+        "strokeWidth.300": "c6e161a4b6260aec1d1d622e5be783b1c17a5452",
+        "strokeWidth.400": "ff564d14ba1a40e7e12c7e2a1a99a9e50ac2eb27",
+        "strokeWidth.500": "a31adf9122b9610d88b307792c10b1e62c1094e3",
+        "strokeWidth.600": "e9d5ae55720aeee43dd0bbed6f82620377e3054a",
+        "size.0": "a7e5b0da93269818535c6e83b532cbca60218dba",
+        "size.100": "b932a96b85a26ebcf58848e616ae060cf94b895a",
+        "size.200": "cd77d1b9b0a49faedfb013166ce9ab2c936239d2",
+        "size.300": "bfb8f7516de0af0725f30e7519e6c9169b0dd530",
+        "size.400": "4c915adb23721430ea945eda618c7e34bd318dcc",
+        "size.500": "07dcc827bc9fcf0afe5ded2ebd76d9c76e2999c8",
+        "size.600": "4b93d58f60c458a184484bb5df93ff076fe91bed",
+        "size.700": "a82af71fc8a360962f9e8afcc8ef2463f1e9dc04",
+        "size.800": "4fcf48a9dad50c047476de439505a22bc669a40f",
+        "size.900": "f57430891d33390896750a7c6f222a36aff38653",
+        "size.1000": "39994444c95d5421c3efa74dd218a71aba10c525",
+        "size.1100": "f7597f235832c0614b5281dee313e1dd432eadb0",
+        "size.1200": "23e4f2578cc0b33ef242c8cbe8acdc847b9d61a9",
+        "size.1300": "86b799ebe162e85d4090116c32777a547a5dfce2",
+        "size.1400": "1abbe8682587cea6f8264c1ed0f001aab0e941e5",
+        "size.1500": "ac20fb5966997fde1836e7fc7849eae3d0926fbb",
+        "size.1600": "fd2c1349bd3daa87e92adc980975bf7bb3b1a858",
+        "size.1700": "7ae2b1afde62b4fb5f0e18d8b051fb40b2326fe0",
+        "size.1800": "7c29d1c2f4de17323437fb00371e7298a72711a9",
+        "size.1900": "7f14b676d9d8d86374d170a3b78fb9eeec610519",
+        "size.2000": "c49d98c7e887072ae19ea6c36a60bdf6d2f5a466"
       }
     },
     {
