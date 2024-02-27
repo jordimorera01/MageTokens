@@ -912,6 +912,22 @@
       "400": {
         "value": "12%",
         "type": "letterSpacing"
+      },
+      "minus100": {
+        "value": "-{letterSpacings.100}",
+        "type": "letterSpacing"
+      },
+      "minus200": {
+        "value": "-{letterSpacings.200}",
+        "type": "letterSpacing"
+      },
+      "minus300": {
+        "value": "-{letterSpacings.300}",
+        "type": "letterSpacing"
+      },
+      "minus400": {
+        "value": "-{letterSpacings.400}",
+        "type": "letterSpacing"
       }
     },
     "paragraphSpacing": {
