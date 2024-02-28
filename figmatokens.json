@@ -1159,6 +1159,24 @@
         "value": "96",
         "type": "sizing"
       }
+    },
+    "stroke": {
+      "action": {
+        "value": "{strokeWidth.100}",
+        "type": "borderWidth"
+      },
+      "subtle": {
+        "value": "{strokeWidth.100}",
+        "type": "borderWidth"
+      },
+      "gap": {
+        "value": "{strokeWidth.100}",
+        "type": "borderWidth"
+      },
+      "control": {
+        "value": "{strokeWidth.100}",
+        "type": "borderWidth"
+      }
     }
   },
   "light": {
