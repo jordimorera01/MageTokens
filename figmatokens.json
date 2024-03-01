@@ -1161,15 +1161,15 @@
       }
     },
     "stroke": {
-      "action": {
+      "button": {
         "value": "{strokeWidth.100}",
         "type": "borderWidth"
       },
-      "subtle": {
+      "button-copy": {
         "value": "{strokeWidth.100}",
         "type": "borderWidth"
       },
-      "gap": {
+      "divider": {
         "value": "{strokeWidth.100}",
         "type": "borderWidth"
       },
