@@ -1159,24 +1159,6 @@
         "value": "96",
         "type": "sizing"
       }
-    },
-    "stroke": {
-      "button": {
-        "value": "{strokeWidth.100}",
-        "type": "borderWidth"
-      },
-      "button-copy": {
-        "value": "{strokeWidth.100}",
-        "type": "borderWidth"
-      },
-      "divider": {
-        "value": "{strokeWidth.100}",
-        "type": "borderWidth"
-      },
-      "control": {
-        "value": "{strokeWidth.100}",
-        "type": "borderWidth"
-      }
     }
   },
   "light": {
