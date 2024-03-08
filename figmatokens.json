@@ -2423,7 +2423,7 @@
         }
       }
     },
-    "navbar": {
+    "header": {
       "height": {
         "value": "{size.1700}",
         "type": "sizing"
@@ -2739,7 +2739,7 @@
       "value": "1",
       "type": "number"
     },
-    "navbar": {
+    "header": {
       "height": {
         "value": "{size.1700}",
         "type": "sizing"
@@ -2939,7 +2939,7 @@
         "grid.container.columns.11": "a3999755aa803f2268e2883b358beb2eb4845baf",
         "grid.container.columns.12": "8450c9a869b997392786141170b8d3f8bca19d35",
         "columns": "39237f1ea9b6ec22f3f9d9478f717c819bf213f8",
-        "navbar.height": "731daebcff9371130d4775ea8f347d70be597811"
+        "header.height": "98f570e55d31ccf40c343b42651c83026bce96df"
       },
       "group": "platform"
     },
@@ -2971,7 +2971,7 @@
         "grid.container.columns.11": "a3999755aa803f2268e2883b358beb2eb4845baf",
         "grid.container.columns.12": "8450c9a869b997392786141170b8d3f8bca19d35",
         "columns": "39237f1ea9b6ec22f3f9d9478f717c819bf213f8",
-        "navbar.height": "731daebcff9371130d4775ea8f347d70be597811"
+        "header.height": "98f570e55d31ccf40c343b42651c83026bce96df"
       },
       "group": "platform"
     },
