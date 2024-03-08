@@ -2306,8 +2306,14 @@
       }
     },
     "viewport": {
-      "value": "1512",
-      "type": "sizing"
+      "width": {
+        "value": "1512",
+        "type": "sizing"
+      },
+      "height": {
+        "value": "982",
+        "type": "sizing"
+      }
     },
     "grid": {
       "container": {
@@ -2415,6 +2421,12 @@
           },
           "type": "typography"
         }
+      }
+    },
+    "navbar": {
+      "height": {
+        "value": "{size.1700}",
+        "type": "sizing"
       }
     }
   },
@@ -2636,8 +2648,14 @@
       }
     },
     "viewport": {
-      "value": "395",
-      "type": "sizing"
+      "width": {
+        "value": "395",
+        "type": "sizing"
+      },
+      "height": {
+        "value": "982",
+        "type": "sizing"
+      }
     },
     "grid": {
       "container": {
@@ -2720,6 +2738,12 @@
     "columns": {
       "value": "1",
       "type": "number"
+    },
+    "navbar": {
+      "height": {
+        "value": "{size.1700}",
+        "type": "sizing"
+      }
     }
   },
   "$themes": [
@@ -2899,7 +2923,8 @@
       "$figmaCollectionId": "VariableCollectionId:5601:9120",
       "$figmaModeId": "5601:2",
       "$figmaVariableReferences": {
-        "viewport": "f919f0d34cb18fd4f1b2fe1180287b5dfdb26c97",
+        "viewport.width": "f919f0d34cb18fd4f1b2fe1180287b5dfdb26c97",
+        "viewport.height": "8f7bfe3e66f59a5541b99b2be4962e6496032414",
         "grid.container.width": "dd1941564001dc130c5c2d6d2b86843042412ec2",
         "grid.container.columns.1": "75a4107ee59255ab522b2b08369ce94b7780fc2a",
         "grid.container.columns.2": "1ed6739c4034f912dfecb346bec655ed03bd05a2",
@@ -2913,7 +2938,8 @@
         "grid.container.columns.10": "1729857ff0c43d024453e8a83647c97cd2304c12",
         "grid.container.columns.11": "a3999755aa803f2268e2883b358beb2eb4845baf",
         "grid.container.columns.12": "8450c9a869b997392786141170b8d3f8bca19d35",
-        "columns": "39237f1ea9b6ec22f3f9d9478f717c819bf213f8"
+        "columns": "39237f1ea9b6ec22f3f9d9478f717c819bf213f8",
+        "navbar.height": "731daebcff9371130d4775ea8f347d70be597811"
       },
       "group": "platform"
     },
@@ -2929,7 +2955,8 @@
       "$figmaCollectionId": "VariableCollectionId:5601:9120",
       "$figmaModeId": "5601:3",
       "$figmaVariableReferences": {
-        "viewport": "f919f0d34cb18fd4f1b2fe1180287b5dfdb26c97",
+        "viewport.width": "f919f0d34cb18fd4f1b2fe1180287b5dfdb26c97",
+        "viewport.height": "8f7bfe3e66f59a5541b99b2be4962e6496032414",
         "grid.container.width": "dd1941564001dc130c5c2d6d2b86843042412ec2",
         "grid.container.columns.1": "75a4107ee59255ab522b2b08369ce94b7780fc2a",
         "grid.container.columns.2": "1ed6739c4034f912dfecb346bec655ed03bd05a2",
@@ -2943,7 +2970,8 @@
         "grid.container.columns.10": "1729857ff0c43d024453e8a83647c97cd2304c12",
         "grid.container.columns.11": "a3999755aa803f2268e2883b358beb2eb4845baf",
         "grid.container.columns.12": "8450c9a869b997392786141170b8d3f8bca19d35",
-        "columns": "39237f1ea9b6ec22f3f9d9478f717c819bf213f8"
+        "columns": "39237f1ea9b6ec22f3f9d9478f717c819bf213f8",
+        "navbar.height": "731daebcff9371130d4775ea8f347d70be597811"
       },
       "group": "platform"
     },
